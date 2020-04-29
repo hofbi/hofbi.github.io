@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markus Hofbauer</title>
+    <link>https://hofbi.github.io/</link>
+      <atom:link href="https://hofbi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Markus Hofbauer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Markus Hofbauer</copyright><lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hofbi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Markus Hofbauer</title>
+      <link>https://hofbi.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Introspective Black Box Failure Prediction for Autonomous Driving</title>
+      <link>https://hofbi.github.io/publication/introspection_bb/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/introspection_bb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TELECARLA: An Open Source Extension of the CARLA Simulator for Teleoperated Driving Research Using Off-The-Shelf Components</title>
+      <link>https://hofbi.github.io/publication/telecarla/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/telecarla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Industry 4.0 Laboratory</title>
+      <link>https://hofbi.github.io/teaching/i40-lab/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/teaching/i40-lab/</guid>
+      <description>&lt;p&gt;The practical module teaches fundamental methods of communication related to Industry 4.0 applications across 6 topical elements, each taught by a different member of the CoC Communication.&lt;/p&gt;
+&lt;p&gt;Details at the chairs 
+&lt;a href=&#34;https://www.ei.tum.de/en/lmt/teaching/industry-40-laboratory/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;webpage&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;supervised-years&#34;&gt;Supervised Years&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2019&lt;/li&gt;
+&lt;li&gt;2020&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Seminar Media Technology</title>
+      <link>https://hofbi.github.io/teaching/seminar-mediatechnology/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/teaching/seminar-mediatechnology/</guid>
+      <description>&lt;p&gt;Selected topics in media technology. The focus is on current research topics and new technologies. The participants study recent publications, prepare a summary in the form of a scientific paper and present the topic to the audience.&lt;/p&gt;
+&lt;p&gt;Details at the chairs 
+&lt;a href=&#34;https://www.ei.tum.de/en/lmt/teaching/seminar-media-technology/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;webpage&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;supervised-terms&#34;&gt;Supervised Terms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SS20&lt;/li&gt;
+&lt;li&gt;WS1920&lt;/li&gt;
+&lt;li&gt;SS19&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ss20-recent-advances-in-multimedia-compression---from-3d-point-clouds-to-deep-neural-networks&#34;&gt;SS20: Recent Advances in Multimedia Compression - From 3D Point Clouds to Deep Neural Networks&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Compression Schemes for 360-degree Video Streaming&lt;/li&gt;
+&lt;li&gt;Compression Artifacts Reduction for Compressed Image/Videos&lt;/li&gt;
+&lt;li&gt;End-to-End Image/Video Compression With Neural Networks&lt;/li&gt;
+&lt;li&gt;Semantic Image/Video Compression Through Deep Learning&lt;/li&gt;
+&lt;li&gt;Video Compression for Low Delay Video Streaming&lt;/li&gt;
+&lt;li&gt;Point Cloud Compression for Autonomous Driving&lt;/li&gt;
+&lt;li&gt;Map Compression for Visual SLAM Systems&lt;/li&gt;
+&lt;li&gt;Deep Autoencoder Model for Dynamically Acquired Point Cloud Data Compression Enhancement Using IMU Sensors&lt;/li&gt;
+&lt;li&gt;Log Compression for Robotics&lt;/li&gt;
+&lt;li&gt;Vibrotactile Perception and Compression&lt;/li&gt;
+&lt;li&gt;Neural Network Model Compression&lt;/li&gt;
+&lt;li&gt;Knowledge Distillation for Enhanced Neural Networks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ws1920-autonomous-driving-methods&#34;&gt;WS19/20: Autonomous Driving Methods&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Teleoperation for Autonomous Driving Failures&lt;/li&gt;
+&lt;li&gt;Safety Concepts for Teleoperated Driving&lt;/li&gt;
+&lt;li&gt;Early Failure Prediction in Autonomous Driving&lt;/li&gt;
+&lt;li&gt;Out-Of-Distribution Detection for Autonomous Driving&lt;/li&gt;
+&lt;li&gt;Visual SLAM Methods&lt;/li&gt;
+&lt;li&gt;Path Planning&lt;/li&gt;
+&lt;li&gt;Driver intention/motion prediction&lt;/li&gt;
+&lt;li&gt;Personalized Autonomous Driving: Learning from Driver Demonstrations&lt;/li&gt;
+&lt;li&gt;Multi-modal Object Detection&lt;/li&gt;
+&lt;li&gt;Predictive Methods for Network Delay Compensation by Teledriving&lt;/li&gt;
+&lt;li&gt;Vision Enhancement for Autonomous Driving under Adverse Weather Conditions&lt;/li&gt;
+&lt;li&gt;Self-supervised Learning of Depth Estimation and Ego-Motion from Monocular Videos using Convolutional Neural Networks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ss19-machine-learning&#34;&gt;SS19: Machine Learning&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Human Visual Perception as a Model for Neural Networks&lt;/li&gt;
+&lt;li&gt;Dimension Reduction - Extracting Information from High-Dimensional Data&lt;/li&gt;
+&lt;li&gt;Embedded Deep Learning for Sensor Fusion Applications&lt;/li&gt;
+&lt;li&gt;Throughput Prediction in Cellular Networks&lt;/li&gt;
+&lt;li&gt;Region of Interest Prediction for Teleoperated Driving Applications&lt;/li&gt;
+&lt;li&gt;Quality of Experience Prediction in Mobile Video&lt;/li&gt;
+&lt;li&gt;Image Quality Assessment&lt;/li&gt;
+&lt;li&gt;Image Restoration - from Conventional Methods to Neural Networks Approaches&lt;/li&gt;
+&lt;li&gt;Content-Based Image Retrieval&lt;/li&gt;
+&lt;li&gt;Machine Learning for Path Planning&lt;/li&gt;
+&lt;li&gt;Neural SLAM&lt;/li&gt;
+&lt;li&gt;Tactile Object Description and Exploration&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Test Driven Development</title>
+      <link>https://hofbi.github.io/talk/tdd/</link>
+      <pubDate>Thu, 16 Jan 2020 15:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/talk/tdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SOLID Principles</title>
+      <link>https://hofbi.github.io/talk/solid/</link>
+      <pubDate>Thu, 07 Nov 2019 15:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/talk/solid/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;S - Single-responsiblity principle.&lt;/li&gt;
+&lt;li&gt;O - Open-closed principle.&lt;/li&gt;
+&lt;li&gt;L - Liskov substitution principle.&lt;/li&gt;
+&lt;li&gt;I - Interface segregation principle.&lt;/li&gt;
+&lt;li&gt;D - Dependency Inversion Principle.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Seminar on Topics in Signal Processing</title>
+      <link>https://hofbi.github.io/teaching/ssp/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/teaching/ssp/</guid>
+      <description>&lt;p&gt;The major goals of the seminar are to learn how to do scientific research and to learn and practice presentation techniques.&lt;/p&gt;
+&lt;p&gt;Details at the chairs 
+&lt;a href=&#34;https://www.ei.tum.de/en/lmt/teaching/seminar-on-topics-in-signal-processing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;webpage&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;subjects-ws1920-autonomous-driving-methods&#34;&gt;Subjects WS19/20: Autonomous Driving Methods&lt;/h2&gt;
+&lt;p&gt;The planned topics for this semester:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Teleoperation for Autonomous Driving Failures&lt;/li&gt;
+&lt;li&gt;Early Failure Prediction in Autonomous Driving&lt;/li&gt;
+&lt;li&gt;Visual SLAM Methods&lt;/li&gt;
+&lt;li&gt;Path Planning&lt;/li&gt;
+&lt;li&gt;Attentive Sensory Data Rate Adaptation&lt;/li&gt;
+&lt;li&gt;Multi-modal Object Detection&lt;/li&gt;
+&lt;li&gt;Predictive Methods for Network Delay Compensation by Teledriving&lt;/li&gt;
+&lt;li&gt;Vision Enhancement for Autonomous Driving under Adverse Weather Conditions&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MUC&#43;&#43;</title>
+      <link>https://hofbi.github.io/project/mucplusplus/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/project/mucplusplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teleoperation for Autonomous Driving Failures</title>
+      <link>https://hofbi.github.io/publication/coc19/</link>
+      <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/coc19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://hofbi.github.io/project/research/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/project/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MaKeApp</title>
+      <link>https://hofbi.github.io/project/makeapp/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/project/makeapp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SOLID | Markus Hofbauer</title>
+    <link>https://hofbi.github.io/tag/solid/</link>
+      <atom:link href="https://hofbi.github.io/tag/solid/index.xml" rel="self" type="application/rss+xml" />
+    <description>SOLID</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Markus Hofbauer</copyright><lastBuildDate>Thu, 16 Jan 2020 15:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hofbi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>SOLID</title>
+      <link>https://hofbi.github.io/tag/solid/</link>
+    </image>
+    
+    <item>
+      <title>Test Driven Development</title>
+      <link>https://hofbi.github.io/talk/tdd/</link>
+      <pubDate>Thu, 16 Jan 2020 15:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/talk/tdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SOLID Principles</title>
+      <link>https://hofbi.github.io/talk/solid/</link>
+      <pubDate>Thu, 07 Nov 2019 15:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/talk/solid/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;S - Single-responsiblity principle.&lt;/li&gt;
+&lt;li&gt;O - Open-closed principle.&lt;/li&gt;
+&lt;li&gt;L - Liskov substitution principle.&lt;/li&gt;
+&lt;li&gt;I - Interface segregation principle.&lt;/li&gt;
+&lt;li&gt;D - Dependency Inversion Principle.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
