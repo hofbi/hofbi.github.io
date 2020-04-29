@@ -1,0 +1,21 @@
+services:
+  build:
+    image: ghcr.io/gohugoio/hugo:v0.154.5
+    command: --gc --minify
+    environment:
+      HUGO_ENVIRONMENT: production
+    user: ":"
+    volumes:
+      - ".:/project"
+  server:
+    image: ghcr.io/gohugoio/hugo:v0.154.5
+    command: server --bind 0.0.0.0
+    user: ":"
+    volumes:
+      - ".:/project"
+      - "hugo_cache:/cache" # persistent cache volume
+    ports:
+      - "1313:1313"
+
+volumes:
+  hugo_cache:
