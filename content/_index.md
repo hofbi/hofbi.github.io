@@ -15,9 +15,9 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+    #   button:
+    #     text: Download CV
+    #     url: uploads/resume.pdf
     design:
       css_class: dark
       background:
@@ -32,14 +32,21 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'My Background'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am a Staff Build Engineer and Tech Lead of the Build & Release Engineering team at [Luminar Technologies](https://www.luminartech.com/) working on a monorepo build system, developer tooling, CI/CD pipelines, and its infrastructure.
+        Currently, we are migrating our build system to Bazel.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        I am passionate about software engineering and the creation of scalable code, which is maintainable over time.
+        Currently, I am teaching these principles at TUM to undergraduate students by offering the [Software Engineering Lab](/teaching/software-lab).
+
+        I studied Electrical and Computer Engineering at [the Technical University of Munich (TUM)](https://www.tum.de/) for both Bachelor and Master.
+        From 2016 to 2018, I was a Software Engineer at the Objective Software GmbH and Luxoft Inc and worked in cooperation with the BMW Group in the area of Automotive and Autonomous Driving.
+        From 2019 to 2022, I worked at the [Chair of Media Technology](https://www.ce.cit.tum.de/en/lmt/home/) at TUM as a Research and Teaching Associate in the research group of [Prof. Dr.-Ing. Eckehard Steinbach](https://www.ce.cit.tum.de/en/lmt/team/staff/steinbach-eckehard/), where I received my Engineering Doctorate in 2022.
+        My [research](/project/research) at TUM was focused on video processing, compression, and transmission of multi-camera systems for autonomous and teleoperated driving.
+        In 2022, I was a Senior Software Engineer at [CareX.AI](https://carex.ai) working on the software architecture and quality of our monorepository.
+        My research at [CareX.AI](https://carex.ai) was focused on camera-based vital signs measurement.
     design:
       columns: '1'
   - block: collection
@@ -72,7 +79,7 @@ sections:
           - event
     design:
       view: article-grid
-      columns: 1
+      columns: 2
   - block: collection
     id: news
     content:
@@ -112,7 +119,7 @@ sections:
         <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
 
         Easily build anything with blocks - no-code required!
-        
+
         From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
       button:
         text: Get Started
