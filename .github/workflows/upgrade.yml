@@ -11,9 +11,6 @@ on:
         options:
         - Stable
         - Beta (Preview)
-  schedule:
-    # Run at 05:00 on Monday
-    - cron: '0 5 * * 1'
 
 permissions:
   contents: write
@@ -65,11 +62,11 @@ jobs:
           VERSION_TYPE: ${{ inputs.version_type || 'Stable' }}
         run: |
           FLAGS="--yes --ci"
-          
+
           if [ "$VERSION_TYPE" == "Beta (Preview)" ]; then
             FLAGS="$FLAGS --canary"
           fi
-          
+
           echo "Running upgrade with flags: $FLAGS"
           pnpm dlx hugoblox@latest upgrade $FLAGS
 
@@ -82,11 +79,11 @@ jobs:
           title: "⬆️ Upgrade HugoBlox Modules"
           body: |
             This PR upgrades the [HugoBlox](https://hugoblox.com) modules to the latest version.
-            
+
             **Changes:**
             - Updated Hugo Modules (go.mod/go.sum)
             - Applied automatic migrations (if any)
-            
+
             **Verification:**
             - [ ] Check the Deploy Preview to ensure everything looks correct.
             - [ ] Merge this PR to apply the updates.

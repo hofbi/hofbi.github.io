@@ -1,0 +1,9 @@
+#IDE
+.idea
+.vscode
+
+# Build Folder
+build
+
+# Generated light theme slides
+*light.md
