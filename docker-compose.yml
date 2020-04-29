@@ -1,0 +1,17 @@
+services:
+  build:
+    # image: klakegg/hugo:ext-ubuntu
+    image: hugomods/hugo:go-git
+    command: hugo
+    volumes:
+      - ".:/src"
+      - "./public:/target"
+  server:
+    # image: klakegg/hugo:ext-ubuntu
+    # command: server
+    image: hugomods/hugo:go-git
+    command: hugo server --bind 0.0.0.0
+    volumes:
+      - ".:/src"
+    ports:
+      - "1313:1313"

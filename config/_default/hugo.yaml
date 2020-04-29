@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
-baseURL: 'https://example.com/' # Website URL
+title: Markus Hofbauer # Website name
+baseurl: 'https://hofbi.github.io/' # Website URL
 
 ############################
 ## LANGUAGE
@@ -47,6 +47,8 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  highlight:           # TODO Added these 2 lines due to https://github.com/wowchemy/wowchemy-hugo-themes/issues/2708
+    codeFences: false  # Mermaid diagrams won't work anymore
 related:
   threshold: 80
   includeNewer: true
