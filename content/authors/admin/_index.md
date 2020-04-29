@@ -1,63 +1,75 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Markus Hofbauer
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Research Associate and Software Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: Technical University of Munich
+  url: "https://www.ei.tum.de/lmt"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Research Associate at the Chair of Media Technology and Software Engineer.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Teleoperated Driving
+- Adaptive Video Streaming
+- Software Engineering
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: M.Sc. in Electrical and Computer Engineering
+    institution: Technical University of Munich
+    year: 2016
+  - course: B.Sc. in Electrical and Computer Engineering
+    institution: Technical University of Munich
+    year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
+- icon: globe
+  icon_pack: fas
+  link: https://makeappdev.com
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: 'mailto:markus.hofbauer@tum.de'  # For a direct email link, use "mailto:test@example.org".
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-8167-5485
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=zSI4zQ8AAAAJ
+- icon: ieee
+  icon_pack: ai
+  link: https://ieeexplore.ieee.org/author/37088594453
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Markus-Hofbauer-3
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
+  link: https://github.com/hofbi
+- icon: bitbucket
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://bitbucket.org/lootsch
+- icon: gitlab
+  icon_pack: fab
+  link: https://gitlab.com/hofbi
+- icon: stack-overflow
+  icon_pack: fab
+  link: https://www.stackoverflow.com/users/
 
 # Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
+# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
@@ -67,11 +79,9 @@ social:
 email: ""
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a PhD student in the research group of [Prof. Dr.-Ing. Eckehard Steinbach](https://www.ei.tum.de/en/lmt/team/staff/steinbach-eckehard/) at the Technical University of Munich (TUM). I studied Electrical and Computer Engineering at TUM for both Bachelor and Master. From 2016 to 2018, I was a software engineer at the Objective Software GmbH and Luxoft Inc and worked in cooperation with the BMW Group in the area of Automotive and Autonomous Driving. In January 2019, I joined the [Chair of Media Technology](https://www.ei.tum.de/en/lmt/home/) at the Technical University of Munich as a research and teaching associate and PhD candidate.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+My current [research](project/research) is focused on video processing, compression, and transmission of multi-camera systems for autonomous and teleoperated driving.

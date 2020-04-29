@@ -1,0 +1,14 @@
+version: '3'
+services:
+  build:
+    image: klakegg/hugo:ext-ubuntu
+    volumes:
+      - ".:/src"
+      - "./public:/target"
+  server:
+    image: klakegg/hugo:ext-ubuntu
+    command: server
+    volumes:
+      - ".:/src"
+    ports:
+      - "1313:1313"
