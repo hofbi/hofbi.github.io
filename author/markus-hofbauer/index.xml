@@ -5,34 +5,51 @@
     <link>https://hofbi.github.io/author/markus-hofbauer/</link>
       <atom:link href="https://hofbi.github.io/author/markus-hofbauer/index.xml" rel="self" type="application/rss+xml" />
     <description>Markus Hofbauer</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Markus Hofbauer</copyright><lastBuildDate>Thu, 16 Jan 2020 15:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Markus Hofbauer</copyright><lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hofbi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://hofbi.github.io/author/markus-hofbauer/avatar_huc6ac6320f16522287726f61b691c7a4e_50018_270x270_fill_q90_lanczos_center.jpg</url>
       <title>Markus Hofbauer</title>
       <link>https://hofbi.github.io/author/markus-hofbauer/</link>
     </image>
     
     <item>
-      <title>Test Driven Development</title>
-      <link>https://hofbi.github.io/talk/tdd/</link>
-      <pubDate>Thu, 16 Jan 2020 15:00:00 +0000</pubDate>
-      <guid>https://hofbi.github.io/talk/tdd/</guid>
+      <title>Introspective Black Box Failure Prediction for Autonomous Driving</title>
+      <link>https://hofbi.github.io/publication/introspection_bb/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/introspection_bb/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>SOLID Principles</title>
-      <link>https://hofbi.github.io/talk/solid/</link>
-      <pubDate>Thu, 07 Nov 2019 15:00:00 +0000</pubDate>
-      <guid>https://hofbi.github.io/talk/solid/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;S - Single-responsiblity principle.&lt;/li&gt;
-&lt;li&gt;O - Open-closed principle.&lt;/li&gt;
-&lt;li&gt;L - Liskov substitution principle.&lt;/li&gt;
-&lt;li&gt;I - Interface segregation principle.&lt;/li&gt;
-&lt;li&gt;D - Dependency Inversion Principle.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <title>TELECARLA: An Open Source Extension of the CARLA Simulator for Teleoperated Driving Research Using Off-The-Shelf Components</title>
+      <link>https://hofbi.github.io/publication/telecarla/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/telecarla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introspective Failure Prediction for Semantic Image Segmentation</title>
+      <link>https://hofbi.github.io/publication/introspection_seg/</link>
+      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/introspection_seg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-View Region of Interest Prediction for Autonomous Driving Using Semi-Supervised Labeling</title>
+      <link>https://hofbi.github.io/publication/mvroi/</link>
+      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/mvroi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teleoperation for Autonomous Driving Failures</title>
+      <link>https://hofbi.github.io/publication/coc19/</link>
+      <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/coc19/</guid>
+      <description></description>
     </item>
     
   </channel>

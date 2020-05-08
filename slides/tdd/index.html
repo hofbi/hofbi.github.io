@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://hofbi.github.io/slides/tdd/">
+
+  <title>Test Driven Development | Markus Hofbauer</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/black.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous">
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/reveal_custom.min.css">
+
+  
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/css/print/pdf.css' : 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    <section>
+    
+      <h1 id="test-driven-development">Test Driven Development</h1>
+<p>
+<a href="https://github.com/hofbi/tdd-sample" target="_blank" rel="noopener">Code</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="unit-tests">Unit Tests</h2>
+<ul>
+<li>Separate (non production) program/code to test your code</li>
+<li>Test your code on the lowest (unit) layer</li>
+<li>General 3 step structure of a unit test
+<ul>
+<li><strong>Given</strong>: Setup unit and environment</li>
+<li><strong>When</strong>: Execute unit to test</li>
+<li><strong>Then</strong>: Test for expected result</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="why-tests">Why Tests</h3>
+<p>Michael Feathers, Working Effectively with Legacy Code</p>
+<blockquote>
+<p>“To me, legacy code is simply code without tests.”</p>
+</blockquote>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="tdd">TDD</h2>
+<ul>
+<li>Write your test before your production code</li>
+<li>3 Phases
+<ul>
+<li><strong>Red Phase</strong>: Define a failing test</li>
+<li><strong>Green Phase</strong>: Fix that test (Solve Simple)</li>
+<li><strong>Refactoring</strong>: Clean up your code</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<img src="https://angularjsbeginnerguide.files.wordpress.com/2017/01/tdd.jpg" alt="TDD Workflow" height="500"/>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="fizzbuzz-task">FizzBuzz Task</h2>
+<p>Write a function that returns the number it was given or <em>Fizz</em> if it is multiple of 3, <em>Buzz</em> if it is multiple of 5 or <em>FizzBuzz</em> if it is multiple of both.</p>
+<p>
+<a href="https://github.com/hofbi/tdd-sample#cpp" target="_blank" rel="noopener">C++</a> | 
+<a href="https://github.com/hofbi/tdd-sample#python" target="_blank" rel="noopener">Python</a></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="task-definition">Task Definition</h2>
+<ol>
+<li>Can call function <code>fizzBuzz</code></li>
+<li>Return 1 for 1</li>
+<li>Return 2 for 2</li>
+<li>Return Fizz for 3</li>
+<li>Return Buzz for 5</li>
+<li>Return Fizz for 6</li>
+<li>Return Buzz for 10</li>
+<li>Return FizzBuzz for 15</li>
+</ol>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="questions">Questions?</h1>
+<p>
+<a href="https://github.com/hofbi/tdd-sample" target="_blank" rel="noopener">Try yourself</a></p>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"></script>
+
+  <script>
+    window.revealPlugins = { dependencies: [
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/zoom-js/zoom.js', async: true },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/math/math.js', async: true },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/print-pdf/print-pdf.js', async: true },
+      
+      { src: '\/js\/vendor\/reveal.js\/plugin\/notes\/notes.js', async: true }
+    ]};
+
+    let revealDefaults = { center: true, controls: true, history: true, progress: true, transition: 'slide', mouseWheel: true };
+    let revealOptions = Object.assign({}, revealDefaults, revealPlugins);
+    Reveal.initialize(revealOptions);
+  </script>
+
+</body>
+</html>
