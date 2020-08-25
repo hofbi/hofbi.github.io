@@ -45,6 +45,14 @@
     </item>
     
     <item>
+      <title>Doctoral Seminar - Adaptive Streaming of Sensor Information for Teleoperator Situation Awareness</title>
+      <link>https://hofbi.github.io/talk/doc_seminar_2020/</link>
+      <pubDate>Fri, 03 Jul 2020 13:15:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/talk/doc_seminar_2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Industry 4.0 Laboratory</title>
       <link>https://hofbi.github.io/teaching/i40-lab/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
@@ -70,10 +78,26 @@
 &lt;a href=&#34;https://www.ei.tum.de/en/lmt/teaching/seminar-media-technology/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;webpage&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;supervised-terms&#34;&gt;Supervised Terms&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;WS20/21&lt;/li&gt;
 &lt;li&gt;SS20&lt;/li&gt;
-&lt;li&gt;WS1920&lt;/li&gt;
+&lt;li&gt;WS19/20&lt;/li&gt;
 &lt;li&gt;SS19&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;ws2021-recent-advances-in-multimedia-compression---from-3d-point-clouds-to-deep-neural-networks&#34;&gt;WS20/21: Recent Advances in Multimedia Compression - From 3D Point Clouds to Deep Neural Networks&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Compression Schemes for 360-degree Video Streaming&lt;/li&gt;
+&lt;li&gt;Compression Artifacts Reduction for Compressed Image/Videos&lt;/li&gt;
+&lt;li&gt;End-to-End Image/Video Compression With Neural Networks&lt;/li&gt;
+&lt;li&gt;Semantic Image/Video Compression Through Deep Learning&lt;/li&gt;
+&lt;li&gt;Video Compression for Low Delay Video Streaming&lt;/li&gt;
+&lt;li&gt;Point Cloud Compression for Autonomous Driving&lt;/li&gt;
+&lt;li&gt;Map Compression for Visual SLAM Systems&lt;/li&gt;
+&lt;li&gt;Deep Autoencoder Model for Dynamically Acquired Point Cloud Data Compression Enhancement Using IMU Sensors&lt;/li&gt;
+&lt;li&gt;Compression of Pose Graphs for SLAM systems&lt;/li&gt;
+&lt;li&gt;Vibrotactile Perception and Compression&lt;/li&gt;
+&lt;li&gt;Neural Network Model Compression&lt;/li&gt;
+&lt;li&gt;Knowledge Distillation for Enhanced Neural Networks&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;ss20-recent-advances-in-multimedia-compression---from-3d-point-clouds-to-deep-neural-networks&#34;&gt;SS20: Recent Advances in Multimedia Compression - From 3D Point Clouds to Deep Neural Networks&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Compression Schemes for 360-degree Video Streaming&lt;/li&gt;
