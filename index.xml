@@ -5,12 +5,20 @@
     <link>https://hofbi.github.io/</link>
       <atom:link href="https://hofbi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Markus Hofbauer</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Markus Hofbauer</copyright><lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Markus Hofbauer</copyright><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hofbi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Markus Hofbauer</title>
       <link>https://hofbi.github.io/</link>
     </image>
+    
+    <item>
+      <title>Adaptive Multi-View Live Video Streaming for Teledriving Using a Single Hardware Encoder</title>
+      <link>https://hofbi.github.io/publication/single_encoder/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/single_encoder/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Introspective Black Box Failure Prediction for Autonomous Driving</title>
@@ -58,8 +66,7 @@
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://hofbi.github.io/teaching/i40-lab/</guid>
       <description>&lt;p&gt;The practical module teaches fundamental methods of communication related to Industry 4.0 applications across 6 topical elements, each taught by a different member of the CoC Communication.&lt;/p&gt;
-&lt;p&gt;Details at the chairs 
-&lt;a href=&#34;https://www.ei.tum.de/en/lmt/teaching/industry-40-laboratory/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;webpage&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Details at the chairs &lt;a href=&#34;https://www.ei.tum.de/en/lmt/teaching/industry-40-laboratory/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;webpage&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;supervised-years&#34;&gt;Supervised Years&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;2019&lt;/li&gt;
@@ -74,8 +81,7 @@
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://hofbi.github.io/teaching/seminar-mediatechnology/</guid>
       <description>&lt;p&gt;Selected topics in media technology. The focus is on current research topics and new technologies. The participants study recent publications, prepare a summary in the form of a scientific paper and present the topic to the audience.&lt;/p&gt;
-&lt;p&gt;Details at the chairs 
-&lt;a href=&#34;https://www.ei.tum.de/en/lmt/teaching/seminar-media-technology/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;webpage&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Details at the chairs &lt;a href=&#34;https://www.ei.tum.de/en/lmt/teaching/seminar-media-technology/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;webpage&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;supervised-terms&#34;&gt;Supervised Terms&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;WS20/21&lt;/li&gt;
@@ -152,8 +158,7 @@
       <pubDate>Thu, 16 Jan 2020 15:00:00 +0000</pubDate>
       <guid>https://hofbi.github.io/slides/tdd/</guid>
       <description>&lt;h1 id=&#34;test-driven-development&#34;&gt;Test Driven Development&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/hofbi/tdd-sample&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/hofbi/tdd-sample&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;unit-tests&#34;&gt;Unit Tests&lt;/h2&gt;
 &lt;ul&gt;
@@ -190,9 +195,7 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;fizzbuzz-task&#34;&gt;FizzBuzz Task&lt;/h2&gt;
 &lt;p&gt;Write a function that returns the number it was given or &lt;em&gt;Fizz&lt;/em&gt; if it is multiple of 3, &lt;em&gt;Buzz&lt;/em&gt; if it is multiple of 5 or &lt;em&gt;FizzBuzz&lt;/em&gt; if it is multiple of both.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/hofbi/tdd-sample#cpp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;C++&lt;/a&gt; | 
-&lt;a href=&#34;https://github.com/hofbi/tdd-sample#python&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/hofbi/tdd-sample#cpp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;C++&lt;/a&gt; | &lt;a href=&#34;https://github.com/hofbi/tdd-sample#python&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Python&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;task-definition&#34;&gt;Task Definition&lt;/h2&gt;
 &lt;ol&gt;
@@ -207,8 +210,7 @@
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/hofbi/tdd-sample&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Try yourself&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/hofbi/tdd-sample&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Try yourself&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -241,8 +243,7 @@
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://hofbi.github.io/teaching/ssp/</guid>
       <description>&lt;p&gt;The major goals of the seminar are to learn how to do scientific research and to learn and practice presentation techniques.&lt;/p&gt;
-&lt;p&gt;Details at the chairs 
-&lt;a href=&#34;https://www.ei.tum.de/en/lmt/teaching/seminar-on-topics-in-signal-processing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;webpage&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Details at the chairs &lt;a href=&#34;https://www.ei.tum.de/en/lmt/teaching/seminar-on-topics-in-signal-processing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;webpage&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;subjects-ws1920-autonomous-driving-methods&#34;&gt;Subjects WS19/20: Autonomous Driving Methods&lt;/h2&gt;
 &lt;p&gt;The planned topics for this semester:&lt;/p&gt;
 &lt;ol&gt;

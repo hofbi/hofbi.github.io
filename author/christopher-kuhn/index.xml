@@ -5,12 +5,20 @@
     <link>https://hofbi.github.io/author/christopher-kuhn/</link>
       <atom:link href="https://hofbi.github.io/author/christopher-kuhn/index.xml" rel="self" type="application/rss+xml" />
     <description>Christopher Kuhn</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Markus Hofbauer</copyright><lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Markus Hofbauer</copyright><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hofbi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Christopher Kuhn</title>
       <link>https://hofbi.github.io/author/christopher-kuhn/</link>
     </image>
+    
+    <item>
+      <title>Adaptive Multi-View Live Video Streaming for Teledriving Using a Single Hardware Encoder</title>
+      <link>https://hofbi.github.io/publication/single_encoder/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/single_encoder/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Introspective Black Box Failure Prediction for Autonomous Driving</title>

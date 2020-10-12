@@ -5,7 +5,7 @@
     <link>https://hofbi.github.io/tag/software-engineering/</link>
       <atom:link href="https://hofbi.github.io/tag/software-engineering/index.xml" rel="self" type="application/rss+xml" />
     <description>Software Engineering</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Markus Hofbauer</copyright><lastBuildDate>Thu, 16 Jan 2020 15:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Markus Hofbauer</copyright><lastBuildDate>Thu, 16 Jan 2020 15:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hofbi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Software Engineering</title>
@@ -18,8 +18,7 @@
       <pubDate>Thu, 16 Jan 2020 15:00:00 +0000</pubDate>
       <guid>https://hofbi.github.io/slides/tdd/</guid>
       <description>&lt;h1 id=&#34;test-driven-development&#34;&gt;Test Driven Development&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/hofbi/tdd-sample&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/hofbi/tdd-sample&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;unit-tests&#34;&gt;Unit Tests&lt;/h2&gt;
 &lt;ul&gt;
@@ -56,9 +55,7 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;fizzbuzz-task&#34;&gt;FizzBuzz Task&lt;/h2&gt;
 &lt;p&gt;Write a function that returns the number it was given or &lt;em&gt;Fizz&lt;/em&gt; if it is multiple of 3, &lt;em&gt;Buzz&lt;/em&gt; if it is multiple of 5 or &lt;em&gt;FizzBuzz&lt;/em&gt; if it is multiple of both.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/hofbi/tdd-sample#cpp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;C++&lt;/a&gt; | 
-&lt;a href=&#34;https://github.com/hofbi/tdd-sample#python&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/hofbi/tdd-sample#cpp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;C++&lt;/a&gt; | &lt;a href=&#34;https://github.com/hofbi/tdd-sample#python&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Python&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;task-definition&#34;&gt;Task Definition&lt;/h2&gt;
 &lt;ol&gt;
@@ -73,8 +70,7 @@
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/hofbi/tdd-sample&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Try yourself&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/hofbi/tdd-sample&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Try yourself&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
