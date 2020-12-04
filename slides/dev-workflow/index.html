@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  
+  
+
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic ">
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://hofbi.github.io/slides/dev-workflow/">
+
+  <title>Improve your Development Workflow | Markus Hofbauer</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/black.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous">
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/reveal_custom.min.css">
+
+  
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/css/print/pdf.css' : 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    <section>
+    
+      <h1 id="improve-your-development-workflow">Improve your Development Workflow</h1>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<img src="../../talk/dev-workflow/featured.jpg" alt="TDD Workflow" height="500"/>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="overview">Overview</h2>
+<ul>
+<li>Project Management</li>
+<li>Development
+<ul>
+<li>Implementation</li>
+<li>Testing</li>
+<li>Checks</li>
+<li>Tools</li>
+</ul>
+</li>
+<li>Version Control</li>
+<li>Continuous Integration</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="project-management">Project Management</h2>
+<p>Integrated in <a href="https://gitlab.com" target="_blank" rel="noopener">GitLab</a>|<a href="https://github.com" target="_blank" rel="noopener">GitHub</a>|<a href="https://bitbucket.org" target="_blank" rel="noopener">Bitbucket</a>|&hellip;</p>
+<ul>
+<li>Issue Trackers</li>
+<li>Milestones</li>
+<li>Boards</li>
+<li>&hellip;</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="issue-trackers">Issue Trackers</h3>
+<ul>
+<li>Collect ideas</li>
+<li>Document and discuss your decisions/progress</li>
+<li>Even if you are working alone (Feels like talking to yourself)</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><img src="https://pics.me.me/yes-i-talk-to-myself-thats-because-sometimes-i-need-14183709.png" alt=""></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="implementation">Implementation</h2>
+<ul>
+<li>SOLID Guidelines
+<ul>
+<li>Common rules you should always follow</li>
+</ul>
+</li>
+<li>Design Patterns
+<ul>
+<li>Existing solutions for common design problems</li>
+<li>Don&rsquo;t reinvent the wheel</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="testing">Testing</h2>
+<ul>
+<li>Unit Tests
+<ul>
+<li>Test individual components</li>
+</ul>
+</li>
+<li>Integration Tests
+<ul>
+<li>Test the entire system</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="checks">Checks</h2>
+<ul>
+<li>Code Format
+<ul>
+<li>Consistent code layout</li>
+<li>Available for almost every language</li>
+</ul>
+</li>
+<li>Linters
+<ul>
+<li>Avoid common errors</li>
+</ul>
+</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="pylint">Pylint</h3>
+<pre><code class="language-python">for t, m, ms in bag.read_messages():
+    # do something
+</code></pre>
+<pre><code class="language-shell">C0103: Variable name &quot;t&quot; doesn't conform to snake_case
+naming style (invalid-name)
+
+W0612: Unused variable 't' (unused-variable)
+</code></pre>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="tools">Tools</h2>
+<ul>
+<li>IDE for the heavy development</li>
+<li>Editor as your swiss army knife</li>
+<li>Shortcuts</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="version-control">Version Control</h2>
+<ul>
+<li><a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a> as most common tool</li>
+<li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow" target="_blank" rel="noopener">Git Feature Branch Workflow</a></li>
+<li>Code Review</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="continuous-integration">Continuous Integration</h2>
+<ul>
+<li>Automatically run on every push</li>
+<li>Requires scripted/containerized environment setup</li>
+<li>Avoid <em>&ldquo;Works on my machine&rdquo;</em></li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><img src="fail.jpg" alt=""></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<p><img src="pass.jpg" alt=""></p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h1 id="questions">Questions?</h1>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"></script>
+
+  <script>
+    window.revealPlugins = { dependencies: [
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/zoom-js/zoom.js', async: true },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/math/math.js', async: true },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/print-pdf/print-pdf.js', async: true },
+      
+      { src: '\/js\/vendor\/reveal.js\/plugin\/notes\/notes.js', async: true }
+    ]};
+
+    let revealDefaults = { center: true, controls: true, history: true, progress: true, transition: 'slide', mouseWheel: true };
+    let revealOptions = Object.assign({}, revealDefaults, revealPlugins);
+    Reveal.initialize(revealOptions);
+  </script>
+
+</body>
+</html>
