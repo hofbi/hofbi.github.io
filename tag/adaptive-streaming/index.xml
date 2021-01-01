@@ -5,7 +5,7 @@
     <link>https://hofbi.github.io/tag/adaptive-streaming/</link>
       <atom:link href="https://hofbi.github.io/tag/adaptive-streaming/index.xml" rel="self" type="application/rss+xml" />
     <description>Adaptive Streaming</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Markus Hofbauer</copyright><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Markus Hofbauer</copyright><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hofbi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Adaptive Streaming</title>
@@ -30,9 +30,9 @@
     
     <item>
       <title>Doctoral Seminar - Adaptive Streaming of Sensor Information for Teleoperator Situation Awareness</title>
-      <link>https://hofbi.github.io/talk/doc_seminar_2020/</link>
+      <link>https://hofbi.github.io/talk/doctoral-seminar-adaptive-streaming-of-sensor-information-for-teleoperator-situation-awareness/</link>
       <pubDate>Fri, 03 Jul 2020 13:15:00 +0000</pubDate>
-      <guid>https://hofbi.github.io/talk/doc_seminar_2020/</guid>
+      <guid>https://hofbi.github.io/talk/doctoral-seminar-adaptive-streaming-of-sensor-information-for-teleoperator-situation-awareness/</guid>
       <description></description>
     </item>
     
@@ -45,7 +45,7 @@
     </item>
     
     <item>
-      <title>Research</title>
+      <title>PhD Research</title>
       <link>https://hofbi.github.io/project/research/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://hofbi.github.io/project/research/</guid>

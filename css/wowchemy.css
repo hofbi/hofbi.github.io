@@ -1,4 +1,6 @@
-/*!* Wowchemy v5.0.0-beta.0 (https://wowchemy.com/) */
+/*! Wowchemy v5.0.0-beta.1 | https://wowchemy.com/ */
+/*! Copyright 2016-present George Cushen (https://georgecushen.com/) */
+/*! License: https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md */
 /* Set Bootstrap variables */
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
@@ -7181,7 +7183,7 @@ body.no-navbar {
   min-height: calc(100vh - 70px);
   display: grid;
   grid-template-rows: auto 1fr auto;
-  grid-template-columns: 100vw; }
+  grid-template-columns: 100%; }
 
 @media (max-width: 991.98px) {
   .page-wrapper {
@@ -7574,10 +7576,12 @@ a.badge:hover {
 table {
   display: block;
   width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
   margin-bottom: 1rem;
-  font-size: 0.8rem; }
+  font-size: 0.8rem;
+  overflow-wrap: normal;
+  word-wrap: normal;
+  word-break: normal; }
 
 table > thead > tr > th,
 table > tbody > tr > th,
@@ -7690,6 +7694,12 @@ div.alert a {
   margin-bottom: 1em;
   margin-left: var(--button-group-margin);
   margin-right: var(--button-group-margin); }
+
+details {
+  margin-bottom: 1rem; }
+
+summary:focus {
+  outline: none; }
 
 .svg-icon {
   display: inline-flex;
@@ -8076,7 +8086,7 @@ a.summary-link {
 .col-search-close {
   text-align: right; }
 
-.search-header i {
+.search-header .col-search-close i {
   font-size: 2rem;
   line-height: 1; }
 
@@ -8128,6 +8138,19 @@ a.summary-link {
 .form-control:focus {
   border-color: #2962ff;
   box-shadow: 0 0 0 0.2rem #5c87ff; }
+
+#search-common-queries ul {
+  margin-left: 0;
+  padding-left: 1.6em; }
+
+#search-common-queries li {
+  line-height: 1; }
+
+#search-common-queries li a {
+  color: inherit; }
+
+.dark #search-common-queries li a {
+  color: #f8f8f2; }
 
 /* DARK themed components. */
 /* Algolia search input */
@@ -8253,10 +8276,13 @@ article .article-metadata {
   content: '\00B7'; }
 
 .article-style {
-  overflow-x: hidden;
+  overflow: hidden;
   overflow-wrap: break-word;
   word-wrap: break-word;
   word-break: break-word; }
+
+.article-style a {
+  text-decoration: inherit; }
 
 .article-style img,
 .article-style video {
@@ -8472,7 +8498,7 @@ ul.share li:hover i {
  *  Page Builder: sections and widgets
  **************************************************/
 .home-section {
-  background-color: white;
+  background: white;
   position: relative;
   padding: 110px 0 110px 0;
   z-index: 0; }
@@ -8546,13 +8572,13 @@ ul.share li:hover i {
   padding-top: 50px; }
 
 .home-section:nth-of-type(even) {
-  background-color: #f7f7f7; }
+  background: #f7f7f7; }
 
 .dark .home-section {
-  background-color: #272935; }
+  background: #272935; }
 
 .dark .home-section:nth-of-type(even) {
-  background-color: #23252f; }
+  background: #23252f; }
 
 @media screen and (max-width: 768px) {
   .home-section {
@@ -9286,3 +9312,16 @@ div.chart {
  **************************************************/
 html[dir="rtl"] body {
   text-align: right; }
+
+.breadcrumb {
+  font-size: 14px;
+  padding: 0rem;
+  background-color: transparent;
+  border-radius: 0rem;
+  margin-bottom: 0rem; }
+
+.breadcrumb-item.active {
+  color: rgba(0, 0, 0, 0.54); }
+
+.dark .breadcrumb-item.active {
+  color: rgba(255, 255, 255, 0.54); }

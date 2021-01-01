@@ -5,12 +5,20 @@
     <link>https://hofbi.github.io/tag/teleoperated-driving/</link>
       <atom:link href="https://hofbi.github.io/tag/teleoperated-driving/index.xml" rel="self" type="application/rss+xml" />
     <description>Teleoperated Driving</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Markus Hofbauer</copyright><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Markus Hofbauer</copyright><lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hofbi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Teleoperated Driving</title>
       <link>https://hofbi.github.io/tag/teleoperated-driving/</link>
     </image>
+    
+    <item>
+      <title>Introspective Failure Prediction for Autonomous Driving Using Late Fusion of State and Camera Information</title>
+      <link>https://hofbi.github.io/publication/introspection_bb_fusion/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/introspection_bb_fusion/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Adaptive Multi-View Live Video Streaming for Teledriving Using a Single Hardware Encoder</title>
@@ -54,9 +62,9 @@
     
     <item>
       <title>Doctoral Seminar - Adaptive Streaming of Sensor Information for Teleoperator Situation Awareness</title>
-      <link>https://hofbi.github.io/talk/doc_seminar_2020/</link>
+      <link>https://hofbi.github.io/talk/doctoral-seminar-adaptive-streaming-of-sensor-information-for-teleoperator-situation-awareness/</link>
       <pubDate>Fri, 03 Jul 2020 13:15:00 +0000</pubDate>
-      <guid>https://hofbi.github.io/talk/doc_seminar_2020/</guid>
+      <guid>https://hofbi.github.io/talk/doctoral-seminar-adaptive-streaming-of-sensor-information-for-teleoperator-situation-awareness/</guid>
       <description></description>
     </item>
     
@@ -69,7 +77,7 @@
     </item>
     
     <item>
-      <title>Research</title>
+      <title>PhD Research</title>
       <link>https://hofbi.github.io/project/research/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://hofbi.github.io/project/research/</guid>

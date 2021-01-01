@@ -5,12 +5,20 @@
     <link>https://hofbi.github.io/tag/failure-prediction/</link>
       <atom:link href="https://hofbi.github.io/tag/failure-prediction/index.xml" rel="self" type="application/rss+xml" />
     <description>Failure Prediction</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Markus Hofbauer</copyright><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Markus Hofbauer</copyright><lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hofbi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Failure Prediction</title>
       <link>https://hofbi.github.io/tag/failure-prediction/</link>
     </image>
+    
+    <item>
+      <title>Introspective Failure Prediction for Autonomous Driving Using Late Fusion of State and Camera Information</title>
+      <link>https://hofbi.github.io/publication/introspection_bb_fusion/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/introspection_bb_fusion/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Better Look Twice - Improving Visual Scene Perception Using a Two-Stage Approach</title>
