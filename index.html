@@ -60,7 +60,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#1565c0">
   
 
   
@@ -75,7 +75,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
 
     
     
@@ -86,14 +86,14 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
         
       
     
 
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
     
 
     
@@ -231,8 +231,8 @@
   
     
       
-      
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
     
   
 
@@ -262,7 +262,10 @@
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Markus Hofbauer">
   
 
+  
   <link rel="manifest" href="/index.webmanifest">
+  
+
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
@@ -337,7 +340,7 @@
 
   
 
-<aside class="search-results" id="search">
+<aside class="search-modal" id="search">
   <div class="container">
     <section class="search-header">
 
@@ -346,16 +349,20 @@
           <h1>Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
         </div>
       </div>
 
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
         
       </div>
+
+      
+      
 
       
 
@@ -387,7 +394,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container">
+  <div class="container-xl">
 
     
     <div class="d-none d-lg-inline-flex">
@@ -686,6 +693,8 @@
   
 
   
+
+  
   
 
   
@@ -940,7 +949,7 @@
 
       
       <div class="col-md-5">
-        <h3>Interests</h3>
+        <div class="section-subheading">Interests</div>
         <ul class="ul-interests">
           
           <li>Teleoperated Driving</li>
@@ -955,7 +964,7 @@
 
       
       <div class="col-md-7">
-        <h3>Education</h3>
+        <div class="section-subheading">Education</div>
         <ul class="ul-edu fa-ul">
           
           <li>
@@ -991,6 +1000,8 @@
   
   
   
+  
+
   
 
   
@@ -1077,8 +1088,8 @@
     <div class="col py-2">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">PhD Student</h4>
-          <h4 class="card-title exp-company text-muted my-0"><a href="https://www.ei.tum.de/lmt" target="_blank" rel="noopener">Chair of Media Technology</a></h4>
+          <div class="section-subheading card-title exp-title text-muted mt-0 mb-1">PhD Student</div>
+          <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.ei.tum.de/lmt" target="_blank" rel="noopener">Chair of Media Technology</a></div>
           <div class="text-muted exp-meta">
             Jan 2019 –
             
@@ -1114,8 +1125,8 @@
     <div class="col py-2">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">IT-Consultant/Software Engineer</h4>
-          <h4 class="card-title exp-company text-muted my-0"><a href="https://objective.de" target="_blank" rel="noopener">Objective Software GmbH</a></h4>
+          <div class="section-subheading card-title exp-title text-muted mt-0 mb-1">IT-Consultant/Software Engineer</div>
+          <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://objective.de" target="_blank" rel="noopener">Objective Software GmbH</a></div>
           <div class="text-muted exp-meta">
             Sep 2016 –
             
@@ -1146,6 +1157,8 @@
   
   
   
+  
+
   
 
   
@@ -1213,7 +1226,7 @@
   
   
     <div class="card experience course">
-      <div class="card-body"><a href="https://www.ieee-ism.org/" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">Best Student Paper Award (22nd IEEE International Symposium on Multimedia)</h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.computer.org/" target="_blank" rel="noopener">IEEE Computer Society</a><span class="middot-divider"></span>
+      <div class="card-body"><a href="https://www.ieee-ism.org/" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Best Student Paper Award (22nd IEEE International Symposium on Multimedia)</div></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.computer.org/" target="_blank" rel="noopener">IEEE Computer Society</a><span class="middot-divider"></span>
 
           Dec 2020
           
@@ -1243,6 +1256,8 @@
   
   
   
+  
+
   
 
   
@@ -1310,7 +1325,7 @@
   
   
     <div class="card experience course">
-      <div class="card-body"><a href="https://www.mmsp.uni-konstanz.de/overview/" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">5th Summer School on Video Compression and Processing</h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.uni-konstanz.de/" target="_blank" rel="noopener">University of Constance</a><span class="middot-divider"></span>
+      <div class="card-body"><a href="https://www.mmsp.uni-konstanz.de/overview/" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">5th Summer School on Video Compression and Processing</div></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.uni-konstanz.de/" target="_blank" rel="noopener">University of Constance</a><span class="middot-divider"></span>
 
           Jun 2019
           
@@ -1325,7 +1340,7 @@
     </div>
   
     <div class="card experience course">
-      <div class="card-body"><a href="https://www.lrz.de/services/compute/courses/archive/2019/2019-06-12_hcpa1s19/" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">Advanced C++ with Focus on Software Engineering</h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.lrz.de" target="_blank" rel="noopener">Leibniz Supercomputing Centre</a><span class="middot-divider"></span>
+      <div class="card-body"><a href="https://www.lrz.de/services/compute/courses/archive/2019/2019-06-12_hcpa1s19/" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">Advanced C++ with Focus on Software Engineering</div></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.lrz.de" target="_blank" rel="noopener">Leibniz Supercomputing Centre</a><span class="middot-divider"></span>
 
           Jun 2019
           
@@ -1353,6 +1368,8 @@
   
   
   
+  
+
   
 
   
@@ -1468,6 +1485,12 @@
   
 
   <div class="isotope projects-container js-layout-masonry ">
+
+    
+    
+      
+    
+
     
 
       
@@ -1505,10 +1528,13 @@
     
     <div class="card-text">
       <h4><a href="https://www.meetup.com/de-DE/MUCplusplus/" target="_blank" rel="noopener">MUC++</a></h4>
+
       
       <div class="article-style">
         <p>Member of the C++ User Group Munich</p>
       </div>
+      
+
       
     </div>
   </div>
@@ -1553,10 +1579,13 @@
     
     <div class="card-text">
       <h4><a href="http://carla.org/" target="_blank" rel="noopener">CARLA</a></h4>
+
       
       <div class="article-style">
         <p>Open-source simulator for autonomous driving research</p>
       </div>
+      
+
       
     </div>
   </div>
@@ -1601,10 +1630,13 @@
     
     <div class="card-text">
       <h4><a href="https://www.ei.tum.de/en/lmt/team/staff/hofbauer-markus/" target="_blank" rel="noopener">PhD Research</a></h4>
+
       
       <div class="article-style">
         <p>Adaptive Streaming of Sensor Information for Teleoperator Situation Awareness</p>
       </div>
+      
+
       
     </div>
   </div>
@@ -1649,10 +1681,13 @@
     
     <div class="card-text">
       <h4><a href="https://makeappdev.com" target="_blank" rel="noopener">MaKeApp</a></h4>
+
       
       <div class="article-style">
         <p>Overview of private and open source projects</p>
       </div>
+      
+
       
     </div>
   </div>
@@ -1675,6 +1710,8 @@
   
   
   
+  
+
   
 
   
@@ -1790,9 +1827,9 @@
 
 
 
+  
 
-  
-  
+
 
 
 
@@ -1804,9 +1841,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/talk/doctoral-seminar-adaptive-streaming-of-sensor-information-for-teleoperator-situation-awareness/" >Doctoral Seminar - Adaptive Streaming of Sensor Information for Teleoperator Situation Awareness</a>
-    </h3>
+    </div>
 
     
     <a href="/talk/doctoral-seminar-adaptive-streaming-of-sensor-information-for-teleoperator-situation-awareness/"  class="summary-link">
@@ -1881,7 +1918,7 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/hofbi" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/hofbi" target="_blank" rel="noopener">
     <i class="fab fa-github mr-1"></i>
     Follow
   </a>
@@ -1915,9 +1952,9 @@
 
 
 
+  
 
-  
-  
+
 
 
 
@@ -1929,9 +1966,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/talk/test-driven-development/" >Test Driven Development</a>
-    </h3>
+    </div>
 
     
     <a href="/talk/test-driven-development/"  class="summary-link">
@@ -1987,7 +2024,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/hofbi/tdd-sample" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/hofbi/tdd-sample" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -2002,7 +2039,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/tdd" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/tdd" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -2022,7 +2059,7 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/hofbi" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/hofbi" target="_blank" rel="noopener">
     <i class="fab fa-github mr-1"></i>
     Follow
   </a>
@@ -2056,9 +2093,9 @@
 
 
 
+  
 
-  
-  
+
 
 
 
@@ -2070,9 +2107,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/talk/solid-principles/" >SOLID Principles</a>
-    </h3>
+    </div>
 
     
     <a href="/talk/solid-principles/"  class="summary-link">
@@ -2147,7 +2184,7 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/hofbi" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/hofbi" target="_blank" rel="noopener">
     <i class="fab fa-github mr-1"></i>
     Follow
   </a>
@@ -2190,6 +2227,8 @@
   
   
   
+  
+
   
 
   
@@ -2294,10 +2333,6 @@
 
 
 
-  
-
-
-
 
 
   
@@ -2372,9 +2407,9 @@
   </a>
   
 
-  <h3 class="article-title mb-1 mt-3">
+  <div class="section-subheading article-title mb-1 mt-3">
     <a href="/publication/single_encoder/">Adaptive Multi-View Live Video Streaming for Teledriving Using a Single Hardware Encoder</a>
-  </h3>
+  </div>
 
   
   <a href="/publication/single_encoder/" class="summary-link">
@@ -2401,23 +2436,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.researchgate.net/publication/345241096_Adaptive_Multi-View_Live_Video_Streaming_for_Teledriving_Using_a_Single_Hardware_Encoder" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/345241096_Adaptive_Multi-View_Live_Video_Streaming_for_Teledriving_Using_a_Single_Hardware_Encoder" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/single_encoder/cite.bib">
   Cite
-</button>
+</a>
 
 
   
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/hofbi/amvs-se" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/hofbi/amvs-se" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -2425,7 +2460,7 @@
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/research/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/research/">
     Project
   </a>
   
@@ -2438,7 +2473,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/file/d/1ioTdB6LsWJQV8fANITRrRFWAtwKFNvnm/view" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/1ioTdB6LsWJQV8fANITRrRFWAtwKFNvnm/view" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -2446,6 +2481,10 @@
 
 
 
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/ISM.2020.00008" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
   
   
@@ -2458,9 +2497,25 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.ieee-ism.org/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.ieee-ism.org/" target="_blank" rel="noopener">
     
     Conference
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/ISM50513.2020" target="_blank" rel="noopener">
+    
+    Proceedings
   </a>
 
 
@@ -2475,10 +2530,6 @@
       
 
 
-
-
-
-  
 
 
 
@@ -2556,9 +2607,9 @@
   </a>
   
 
-  <h3 class="article-title mb-1 mt-3">
+  <div class="section-subheading article-title mb-1 mt-3">
     <a href="/publication/telecarla/">TELECARLA: An Open Source Extension of the CARLA Simulator for Teleoperated Driving Research Using Off-The-Shelf Components</a>
-  </h3>
+  </div>
 
   
   <a href="/publication/telecarla/" class="summary-link">
@@ -2585,23 +2636,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.researchgate.net/publication/341293636_TELECARLA_An_Open_Source_Extension_of_the_CARLA_Simulator_for_Teleoperated_Driving_Research_Using_Off-the-Shelf_Components" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/341293636_TELECARLA_An_Open_Source_Extension_of_the_CARLA_Simulator_for_Teleoperated_Driving_Research_Using_Off-the-Shelf_Components" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/telecarla/cite.bib">
   Cite
-</button>
+</a>
 
 
   
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/hofbi/telecarla" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/hofbi/telecarla" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -2609,7 +2660,7 @@
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/research/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/research/">
     Project
   </a>
   
@@ -2620,7 +2671,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/file/d/1kcTvfRJxeBTG7fIkobEiv4LZr0YyclmC/view" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/1kcTvfRJxeBTG7fIkobEiv4LZr0YyclmC/view" target="_blank" rel="noopener">
   Poster
 </a>
 
@@ -2630,7 +2681,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/file/d/1hhucp-sufaHHX6mt6kxkm9q7UCPidjnb/view" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/1hhucp-sufaHHX6mt6kxkm9q7UCPidjnb/view" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -2638,6 +2689,10 @@
 
 
 
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/IV47402.2020.9304676" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
   
   
@@ -2650,9 +2705,25 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://2020.ieee-iv.org/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://2020.ieee-iv.org/" target="_blank" rel="noopener">
     
     Conference
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/IV47402.2020" target="_blank" rel="noopener">
+    
+    Proceedings
   </a>
 
 
@@ -2681,6 +2752,8 @@
   
   
   
+  
+
   
 
   
@@ -2803,9 +2876,9 @@
 
 
 
+  
 
-  
-  
+
 
 
 
@@ -2817,9 +2890,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/introspection_bb_fusion/" >Introspective Failure Prediction for Autonomous Driving Using Late Fusion of State and Camera Information</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/introspection_bb_fusion/"  class="summary-link">
@@ -2858,22 +2931,28 @@
 
 
   
+    
+  
 
 
 
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/348052655_Introspective_Failure_Prediction_for_Autonomous_Driving_Using_Late_Fusion_of_State_and_Camera_Information" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/introspection_bb_fusion/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/research/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/research/">
     Project
   </a>
   
@@ -2886,7 +2965,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/TITS.2020.3044813" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/TITS.2020.3044813" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -2902,7 +2981,7 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979" target="_blank" rel="noopener">
     
     Journal
   </a>
@@ -2936,9 +3015,9 @@
 
 
 
+  
 
-  
-  
+
 
 
 
@@ -2950,9 +3029,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/blt/" >Better Look Twice - Improving Visual Scene Perception Using a Two-Stage Approach</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/blt/"  class="summary-link">
@@ -2996,23 +3075,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.researchgate.net/publication/345389376_Better_Look_Twice_-Improving_Visual_Scene_Perception_Using_a_Two-Stage_Approach" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/345389376_Better_Look_Twice_-Improving_Visual_Scene_Perception_Using_a_Two-Stage_Approach" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/blt/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/research/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/research/">
     Project
   </a>
   
@@ -3025,7 +3104,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/file/d/1nqmQLQCwXR8WFSLiPyAJEfvBCe52CQJm/view" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/1nqmQLQCwXR8WFSLiPyAJEfvBCe52CQJm/view" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -3033,6 +3112,10 @@
 
 
 
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/ISM.2020.00013" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
   
   
@@ -3045,9 +3128,25 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.ieee-ism.org/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.ieee-ism.org/" target="_blank" rel="noopener">
     
     Conference
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/ISM50513.2020" target="_blank" rel="noopener">
+    
+    Proceedings
   </a>
 
 
@@ -3079,9 +3178,9 @@
 
 
 
+  
 
-  
-  
+
 
 
 
@@ -3093,9 +3192,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/driver_sa/" >Measuring Driver Situation Awareness Using Region-of-Interest Prediction and Eye Tracking</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/driver_sa/"  class="summary-link">
@@ -3140,23 +3239,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.researchgate.net/publication/345241621_Measuring_Driver_Situation_Awareness_Using_Region-of-Interest_Prediction_and_Eye_Tracking" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/345241621_Measuring_Driver_Situation_Awareness_Using_Region-of-Interest_Prediction_and_Eye_Tracking" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/driver_sa/cite.bib">
   Cite
-</button>
+</a>
 
 
   
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/hofbi/driver-awareness" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/hofbi/driver-awareness" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -3164,7 +3263,7 @@
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/research/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/research/">
     Project
   </a>
   
@@ -3177,7 +3276,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/file/d/1I6Y0Y9hwsRimjdIHkgcXbzXtKiTyXaQ2/view" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/1I6Y0Y9hwsRimjdIHkgcXbzXtKiTyXaQ2/view" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -3185,6 +3284,10 @@
 
 
 
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/ISM.2020.00022" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
   
   
@@ -3197,9 +3300,25 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.ieee-ism.org/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.ieee-ism.org/" target="_blank" rel="noopener">
     
     Conference
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/ISM50513.2020" target="_blank" rel="noopener">
+    
+    Proceedings
   </a>
 
 
@@ -3231,9 +3350,9 @@
 
 
 
+  
 
-  
-  
+
 
 
 
@@ -3245,9 +3364,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/introspection_bb/" >Introspective Black Box Failure Prediction for Autonomous Driving</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/introspection_bb/"  class="summary-link">
@@ -3291,23 +3410,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.researchgate.net/publication/341293627_Introspective_Black_Box_Failure_Prediction_for_Autonomous_Driving" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/341293627_Introspective_Black_Box_Failure_Prediction_for_Autonomous_Driving" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/introspection_bb/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/research/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/research/">
     Project
   </a>
   
@@ -3318,7 +3437,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/file/d/1-Ah37PNr8kDRnKWgNVHxQkETx8YNTkWx/view" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/1-Ah37PNr8kDRnKWgNVHxQkETx8YNTkWx/view" target="_blank" rel="noopener">
   Poster
 </a>
 
@@ -3328,7 +3447,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/file/d/1ynPSgjqBVjibgS-OI_Tnsd9JS7RNvmWE/view" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/1ynPSgjqBVjibgS-OI_Tnsd9JS7RNvmWE/view" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -3336,6 +3455,10 @@
 
 
 
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/IV47402.2020.9304844" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
   
   
@@ -3348,9 +3471,25 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://2020.ieee-iv.org/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://2020.ieee-iv.org/" target="_blank" rel="noopener">
     
     Conference
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/IV47402.2020" target="_blank" rel="noopener">
+    
+    Proceedings
   </a>
 
 
@@ -3382,9 +3521,9 @@
 
 
 
+  
 
-  
-  
+
 
 
 
@@ -3396,9 +3535,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/introspection_seg/" >Introspective Failure Prediction for Semantic Image Segmentation</a>
-    </h3>
+    </div>
 
     
     <a href="/publication/introspection_seg/"  class="summary-link">
@@ -3443,23 +3582,23 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.researchgate.net/publication/342171446_Introspective_Failure_Prediction_for_Semantic_Image_Segmentation" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.researchgate.net/publication/342171446_Introspective_Failure_Prediction_for_Semantic_Image_Segmentation" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
         data-filename="/publication/introspection_seg/cite.bib">
   Cite
-</button>
+</a>
 
 
 
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/research/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/research/">
     Project
   </a>
   
@@ -3472,7 +3611,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/file/d/1sl6q-B8CG-hJSbzPrDTo7CDF3dDrCHjW/view" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/1sl6q-B8CG-hJSbzPrDTo7CDF3dDrCHjW/view" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -3480,7 +3619,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/ITSC45102.2020.9294308" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/ITSC45102.2020.9294308" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -3496,9 +3635,25 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.ieee-itsc2020.org/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.ieee-itsc2020.org/" target="_blank" rel="noopener">
     
     Conference
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1109/ITSC45102.2020" target="_blank" rel="noopener">
+    
+    Proceedings
   </a>
 
 
@@ -3554,6 +3709,8 @@
   
   
   
+  
+
   
 
   
@@ -3850,42 +4007,18 @@
 
     
     
-    <script>const code_highlighting = true;</script>
-    
-
-    
-    
-    
-    
-    
-    
-    <script>
-      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'event' : "Events",
-        'slides' : "Slides"
-        };
-    </script>
-    
-
-    
-    
 
     
     
     <script id="search-hit-fuse-template" type="text/x-template">
       <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
+        <div class="search-hit-content">
+          <div class="search-hit-name">
+            <a href="{{relpermalink}}">{{title}}</a>
+            <div class="article-metadata search-hit-type">{{type}}</div>
+            <p class="search-hit-description">{{snippet}}</p>
+          </div>
         </div>
-      </div>
       </div>
     </script>
     
@@ -3896,6 +4029,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
     
 
+    
     
     
 
@@ -3923,6 +4057,17 @@
 
     
     
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
     
     
     
@@ -3935,7 +4080,7 @@
       
     
     
-    <script src="/js/wowchemy.min.js"></script>
+    <script src="/en/js/wowchemy.min.js"></script>
 
     
 
