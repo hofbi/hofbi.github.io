@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article | Markus Hofbauer</title>
+    <link>https://hofbi.github.io/publication_types/article/</link>
+      <atom:link href="https://hofbi.github.io/publication_types/article/index.xml" rel="self" type="application/rss+xml" />
+    <description>Article</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hofbi.github.io/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <title>Article</title>
+      <link>https://hofbi.github.io/publication_types/article/</link>
+    </image>
+    
+    <item>
+      <title>Enabling Acoustic Audience Feedback in Large Virtual Events</title>
+      <link>https://hofbi.github.io/publication/virtual_audience/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/virtual_audience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large-Scale Collaborative Writing: Technical Challenges and Recommendations</title>
+      <link>https://hofbi.github.io/publication/collaborative_writing/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/collaborative_writing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog | Markus Hofbauer</title>
+    <link>https://hofbi.github.io/post/</link>
+      <atom:link href="https://hofbi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blog</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hofbi.github.io/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <title>Blog</title>
+      <link>https://hofbi.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Launching a new course at TUM - Software Engineering Lab</title>
+      <link>https://hofbi.github.io/post/software-lab/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/post/software-lab/</guid>
+      <description>&lt;p&gt;We are launching a new course at the Department of Electrical and Computer Engineering, Technical University of Munich, Germany.
+The course is called Software Engineering Lab and is part of the Bachelor in Electrical and Computer Engineering (BSEI).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Find all details about the course: &lt;a href=&#34;https://hofbi.github.io/teaching/software-lab/&#34;&gt;Software Engineering Lab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Check the course page at the chair: &lt;a href=&#34;https://www.ce.cit.tum.de/lmt&#34;&gt;Chair of Media Technology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Read our publication: &lt;a href=&#34;https://hofbi.github.io/publication/software_lab&#34;&gt;Teaching Software Engineering As Programming Over Time&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Press Release - New early warning system for self-driving cars</title>
+      <link>https://hofbi.github.io/post/introspection-bb-fusion/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/post/introspection-bb-fusion/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Read our publication: &lt;a href=&#34;https://hofbi.github.io/publication/introspection_bb_fusion/&#34;&gt;Introspective Failure Prediction for Autonomous Driving Using Late Fusion of State and Camera Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Read the chair news: &lt;a href=&#34;https://www.ce.cit.tum.de/lmt/aktuelles/article/tum-press-release-new-early-warning-system-for-self-driving-cars/&#34;&gt;Chair of Media Technology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Read the techcrunch post: &lt;a href=&#34;https://techcrunch.com/2021/04/20/deep-science-introspective-detail-oriented-and-disaster-chasing-ais/&#34;&gt;Techcrunch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
