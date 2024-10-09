@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Media Technology | Markus Hofbauer</title>
+    <link>https://hofbi.github.io/tags/media-technology/</link>
+      <atom:link href="https://hofbi.github.io/tags/media-technology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Media Technology</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hofbi.github.io/media/icon_hu7729264130191091259.png</url>
+      <title>Media Technology</title>
+      <link>https://hofbi.github.io/tags/media-technology/</link>
+    </image>
+    
+    <item>
+      <title>Seminar Media Technology</title>
+      <link>https://hofbi.github.io/teaching/seminar-media-technology/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/teaching/seminar-media-technology/</guid>
+      <description>&lt;p&gt;Selected topics in media technology. The focus is on current research topics and new technologies. The participants study recent publications, prepare a summary in the form of a scientific paper and present the topic to the audience.&lt;/p&gt;
+&lt;p&gt;Details at the chairs 
+&lt;/p&gt;
+&lt;h2 id=&#34;supervised-terms&#34;&gt;Supervised Terms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SS21&lt;/li&gt;
+&lt;li&gt;WS20/21&lt;/li&gt;
+&lt;li&gt;SS20&lt;/li&gt;
+&lt;li&gt;WS19/20&lt;/li&gt;
+&lt;li&gt;SS19&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ss21-augmented-reality-and-virtual-reality&#34;&gt;SS21: Augmented Reality and Virtual Reality&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;AR/VR-based Human-Robot Interfaces&lt;/li&gt;
+&lt;li&gt;VR and AR Interfaces for Robot Learning from Demonstration&lt;/li&gt;
+&lt;li&gt;Intuitive Teleoperation using Augmented Reality&lt;/li&gt;
+&lt;li&gt;Improving Teleoperated Driving Using an Augmented Reality Representation&lt;/li&gt;
+&lt;li&gt;Deep Learning for 6D pose estimation and its applications in AR&lt;/li&gt;
+&lt;li&gt;Deformable Object Tracking for AR&lt;/li&gt;
+&lt;li&gt;Marker-based Augmented Reality&lt;/li&gt;
+&lt;li&gt;Visual Place Recognition&lt;/li&gt;
+&lt;li&gt;Activity Recognition for Augmented Reality and Virtual Reality&lt;/li&gt;
+&lt;li&gt;Augmented and Virtual Haptics&lt;/li&gt;
+&lt;li&gt;Generation of Realistic Virtual Views&lt;/li&gt;
+&lt;li&gt;Video coding optimization of virtual reality 360-degree Video&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ws2021-recent-advances-in-multimedia-compression---from-3d-point-clouds-to-deep-neural-networks&#34;&gt;WS20/21: Recent Advances in Multimedia Compression - From 3D Point Clouds to Deep Neural Networks&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Compression Schemes for 360-degree Video Streaming&lt;/li&gt;
+&lt;li&gt;Compression Artifacts Reduction for Compressed Image/Videos&lt;/li&gt;
+&lt;li&gt;End-to-End Image/Video Compression With Neural Networks&lt;/li&gt;
+&lt;li&gt;Semantic Image/Video Compression Through Deep Learning&lt;/li&gt;
+&lt;li&gt;Video Compression for Low Delay Video Streaming&lt;/li&gt;
+&lt;li&gt;Point Cloud Compression for Autonomous Driving&lt;/li&gt;
+&lt;li&gt;Map Compression for Visual SLAM Systems&lt;/li&gt;
+&lt;li&gt;Deep Autoencoder Model for Dynamically Acquired Point Cloud Data Compression Enhancement Using IMU Sensors&lt;/li&gt;
+&lt;li&gt;Compression of Pose Graphs for SLAM systems&lt;/li&gt;
+&lt;li&gt;Vibrotactile Perception and Compression&lt;/li&gt;
+&lt;li&gt;Neural Network Model Compression&lt;/li&gt;
+&lt;li&gt;Knowledge Distillation for Enhanced Neural Networks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ss20-recent-advances-in-multimedia-compression---from-3d-point-clouds-to-deep-neural-networks&#34;&gt;SS20: Recent Advances in Multimedia Compression - From 3D Point Clouds to Deep Neural Networks&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Compression Schemes for 360-degree Video Streaming&lt;/li&gt;
+&lt;li&gt;Compression Artifacts Reduction for Compressed Image/Videos&lt;/li&gt;
+&lt;li&gt;End-to-End Image/Video Compression With Neural Networks&lt;/li&gt;
+&lt;li&gt;Semantic Image/Video Compression Through Deep Learning&lt;/li&gt;
+&lt;li&gt;Video Compression for Low Delay Video Streaming&lt;/li&gt;
+&lt;li&gt;Point Cloud Compression for Autonomous Driving&lt;/li&gt;
+&lt;li&gt;Map Compression for Visual SLAM Systems&lt;/li&gt;
+&lt;li&gt;Deep Autoencoder Model for Dynamically Acquired Point Cloud Data Compression Enhancement Using IMU Sensors&lt;/li&gt;
+&lt;li&gt;Log Compression for Robotics&lt;/li&gt;
+&lt;li&gt;Vibrotactile Perception and Compression&lt;/li&gt;
+&lt;li&gt;Neural Network Model Compression&lt;/li&gt;
+&lt;li&gt;Knowledge Distillation for Enhanced Neural Networks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ws1920-autonomous-driving-methods&#34;&gt;WS19/20: Autonomous Driving Methods&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Teleoperation for Autonomous Driving Failures&lt;/li&gt;
+&lt;li&gt;Safety Concepts for Teleoperated Driving&lt;/li&gt;
+&lt;li&gt;Early Failure Prediction in Autonomous Driving&lt;/li&gt;
+&lt;li&gt;Out-Of-Distribution Detection for Autonomous Driving&lt;/li&gt;
+&lt;li&gt;Visual SLAM Methods&lt;/li&gt;
+&lt;li&gt;Path Planning&lt;/li&gt;
+&lt;li&gt;Driver intention/motion prediction&lt;/li&gt;
+&lt;li&gt;Personalized Autonomous Driving: Learning from Driver Demonstrations&lt;/li&gt;
+&lt;li&gt;Multi-modal Object Detection&lt;/li&gt;
+&lt;li&gt;Predictive Methods for Network Delay Compensation by Teledriving&lt;/li&gt;
+&lt;li&gt;Vision Enhancement for Autonomous Driving under Adverse Weather Conditions&lt;/li&gt;
+&lt;li&gt;Self-supervised Learning of Depth Estimation and Ego-Motion from Monocular Videos using Convolutional Neural Networks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ss19-machine-learning&#34;&gt;SS19: Machine Learning&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Human Visual Perception as a Model for Neural Networks&lt;/li&gt;
+&lt;li&gt;Dimension Reduction - Extracting Information from High-Dimensional Data&lt;/li&gt;
+&lt;li&gt;Embedded Deep Learning for Sensor Fusion Applications&lt;/li&gt;
+&lt;li&gt;Throughput Prediction in Cellular Networks&lt;/li&gt;
+&lt;li&gt;Region of Interest Prediction for Teleoperated Driving Applications&lt;/li&gt;
+&lt;li&gt;Quality of Experience Prediction in Mobile Video&lt;/li&gt;
+&lt;li&gt;Image Quality Assessment&lt;/li&gt;
+&lt;li&gt;Image Restoration - from Conventional Methods to Neural Networks Approaches&lt;/li&gt;
+&lt;li&gt;Content-Based Image Retrieval&lt;/li&gt;
+&lt;li&gt;Machine Learning for Path Planning&lt;/li&gt;
+&lt;li&gt;Neural SLAM&lt;/li&gt;
+&lt;li&gt;Tactile Object Description and Exploration&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Seminar on Topics in Signal Processing</title>
+      <link>https://hofbi.github.io/teaching/ssp/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/teaching/ssp/</guid>
+      <description>&lt;p&gt;The major goals of the seminar are to learn how to do scientific research and to learn and practice presentation techniques. Each student has to prepare a scientific talk about the topic he or she has registered for. The students have to collect the required literature, understand its contents, and prepare a presentation about it that summarizes the topic.&lt;/p&gt;
+&lt;p&gt;Details at the chairs 
+&lt;/p&gt;
+&lt;h2 id=&#34;supervised-terms&#34;&gt;Supervised Terms&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;WS20/21&lt;/li&gt;
+&lt;li&gt;WS19/20&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ws2021-recent-advances-in-multimedia-compression---from-3d-point-clouds-to-deep-neural-networks&#34;&gt;WS20/21: Recent Advances in Multimedia Compression - From 3D Point Clouds to Deep Neural Networks&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Compression Schemes for 360-degree Video Streaming&lt;/li&gt;
+&lt;li&gt;Compression Artifacts Reduction for Compressed Image/Videos&lt;/li&gt;
+&lt;li&gt;End-to-End Image/Video Compression With Neural Networks&lt;/li&gt;
+&lt;li&gt;Semantic Image/Video Compression Through Deep Learning&lt;/li&gt;
+&lt;li&gt;Video Compression for Low Delay Video Streaming&lt;/li&gt;
+&lt;li&gt;Point Cloud Compression for Autonomous Driving&lt;/li&gt;
+&lt;li&gt;Map Compression for Visual SLAM Systems&lt;/li&gt;
+&lt;li&gt;Deep Autoencoder Model for Dynamically Acquired Point Cloud Data Compression Enhancement Using IMU Sensors&lt;/li&gt;
+&lt;li&gt;Compression Schemes for Cloud Robotics&lt;/li&gt;
+&lt;li&gt;Vibrotactile Perception and Compression&lt;/li&gt;
+&lt;li&gt;Neural Network Model Compression&lt;/li&gt;
+&lt;li&gt;Knowledge Distillation for Enhanced Neural Networks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;subjects-ws1920-autonomous-driving-methods&#34;&gt;Subjects WS19/20: Autonomous Driving Methods&lt;/h2&gt;
+&lt;p&gt;The planned topics for this semester:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Teleoperation for Autonomous Driving Failures&lt;/li&gt;
+&lt;li&gt;Early Failure Prediction in Autonomous Driving&lt;/li&gt;
+&lt;li&gt;Visual SLAM Methods&lt;/li&gt;
+&lt;li&gt;Path Planning&lt;/li&gt;
+&lt;li&gt;Attentive Sensory Data Rate Adaptation&lt;/li&gt;
+&lt;li&gt;Multi-modal Object Detection&lt;/li&gt;
+&lt;li&gt;Predictive Methods for Network Delay Compensation by Teledriving&lt;/li&gt;
+&lt;li&gt;Vision Enhancement for Autonomous Driving under Adverse Weather Conditions&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Industry 4.0 Laboratory</title>
+      <link>https://hofbi.github.io/teaching/i40-lab/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/teaching/i40-lab/</guid>
+      <description>&lt;p&gt;The practical module teaches fundamental methods of communication related to Industry 4.0 applications across 6 topical elements, each taught by a different member of the CoC Communication.&lt;/p&gt;
+&lt;p&gt;Details at the chairs 
+&lt;/p&gt;
+&lt;h2 id=&#34;supervised-years&#34;&gt;Supervised Years&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2019&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

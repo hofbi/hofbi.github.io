@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Engineering | Markus Hofbauer</title>
+    <link>https://hofbi.github.io/tags/software-engineering/</link>
+      <atom:link href="https://hofbi.github.io/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <description>Software Engineering</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hofbi.github.io/media/icon_hu7729264130191091259.png</url>
+      <title>Software Engineering</title>
+      <link>https://hofbi.github.io/tags/software-engineering/</link>
+    </image>
+    
+    <item>
+      <title>Software Engineering Lab</title>
+      <link>https://hofbi.github.io/teaching/software-lab/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/teaching/software-lab/</guid>
+      <description>&lt;p&gt;Basic introduction to principles of software engineering including unit testing, test driven development, refactoring, CI, and automation.&lt;/p&gt;
+&lt;h2 id=&#34;paper&#34;&gt;Paper&lt;/h2&gt;
+&lt;p&gt;We published the paper 
+ in the IEEE/ACM 4th International Workshop on Software Engineering Education for the Next Generation which contains further details on this course.&lt;/p&gt;
+&lt;h2 id=&#34;guest-speakers&#34;&gt;Guest Speakers&lt;/h2&gt;
+&lt;p&gt;I am very grateful to all guest speakers who took the time to prepare and give a talk in this course. The following table lists all guest speakers and their talks.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Speaker&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Date&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Topic&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Kent Beck&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;December TBD, 2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;TBD&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Phil Nash&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;June 5, 2024&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Testing Fundamentals&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Robert C. Martin (&amp;ldquo;Uncle Bob&amp;rdquo;)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;December 12, 2023&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Basic Test Driven Development&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Klaus Iglberger&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;January 9, 2023&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;What is C++? - A Historical Perspective&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Titus Winters&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;June 13, 2022&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Software Engineering - Principles aka SWE Book Theses&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;course-description&#34;&gt;Course Description&lt;/h2&gt;
+&lt;p&gt;Software engineering skills of any engineer become more important with the ongoing digitization and automation. Software engineering means not only delivering an implementation that fulfills the requirements and generates correct results. A second highly important aspect is to deliver software that can be maintained by multiple contributors, over months, years or even decades. This lifetime aspect and the number of developers contributing to the software introduces additional requirements and challenges in the development process. Software has to be testable, readable, and extendable. Concepts such as unit tests, code reviews, and continuous integration support writing software with these characteristics.&lt;/p&gt;
+&lt;p&gt;Details at the chair&amp;rsquo;s 
+.&lt;/p&gt;
+&lt;h2 id=&#34;supervised-years&#34;&gt;Supervised Years&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;WS24/25&lt;/li&gt;
+&lt;li&gt;SS24&lt;/li&gt;
+&lt;li&gt;WS23/24&lt;/li&gt;
+&lt;li&gt;SS23&lt;/li&gt;
+&lt;li&gt;WS22/23&lt;/li&gt;
+&lt;li&gt;SS22&lt;/li&gt;
+&lt;li&gt;WS21/22&lt;/li&gt;
+&lt;li&gt;SS21&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;acknowledgement&#34;&gt;Acknowledgement&lt;/h2&gt;
+&lt;p&gt;I learned a lot while creating this course at the Chair of Media Technology. I want to thank Christoph Bachhuber and Kevin Meyer for their contributions and discussions while working on this course. I also want to thank Prof. Eckehard Steinbach for giving me the freedom and support in creating and running this course.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MUC&#43;&#43; Lighting Talk - Teaching Software Engineering As Programming Over Time</title>
+      <link>https://hofbi.github.io/event/mucplusplus/</link>
+      <pubDate>Tue, 14 Jun 2022 19:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/event/mucplusplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching Software Engineering As Programming Over Time</title>
+      <link>https://hofbi.github.io/publication/software_lab/</link>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/publication/software_lab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oh My ZSH!</title>
+      <link>https://hofbi.github.io/project/ohmyzsh/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/project/ohmyzsh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mp-units</title>
+      <link>https://hofbi.github.io/project/units/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/project/units/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scale your Workflow</title>
+      <link>https://hofbi.github.io/event/workflow/</link>
+      <pubDate>Mon, 07 Jun 2021 16:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/event/workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Launching a new course at TUM - Software Engineering Lab</title>
+      <link>https://hofbi.github.io/post/software-lab/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/post/software-lab/</guid>
+      <description>&lt;p&gt;We are launching a new course at the Department of Electrical and Computer Engineering, Technical University of Munich, Germany.
+The course is called Software Engineering Lab and is part of the Bachelor in Electrical and Computer Engineering (BSEI).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Find all details about the course: 
+&lt;/li&gt;
+&lt;li&gt;Check the course page at the chair: 
+&lt;/li&gt;
+&lt;li&gt;Read our publication: 
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scale your Workflow</title>
+      <link>https://hofbi.github.io/slides/workflow/</link>
+      <pubDate>Fri, 01 May 2020 15:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/slides/workflow/</guid>
+      <description>&lt;h1 id=&#34;scale-your-workflow&#34;&gt;Scale your Workflow&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Project Management&lt;/li&gt;
+&lt;li&gt;Development&lt;/li&gt;
+&lt;li&gt;Documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;project-management&#34;&gt;Project Management&lt;/h2&gt;
+&lt;p&gt;Integrated in 
+|
+|
+|&amp;hellip;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Issue Trackers&lt;/li&gt;
+&lt;li&gt;Milestones&lt;/li&gt;
+&lt;li&gt;Boards&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;issue-trackers&#34;&gt;Issue Trackers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Collect ideas&lt;/li&gt;
+&lt;li&gt;Document and discuss your decisions/progress
+&lt;ul&gt;
+&lt;li&gt;For/with others&lt;/li&gt;
+&lt;li&gt;For/with your future self&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://pics.me.me/yes-i-talk-to-myself-thats-because-sometimes-i-need-14183709.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;team-discussions&#34;&gt;Team Discussions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Early feedback&lt;/li&gt;
+&lt;li&gt;Constantly explain/justify/rethink your ideas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Fail Often, Fail Fast, Fail Early&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;development&#34;&gt;Development&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;implementation&#34;&gt;Implementation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Common rules you should always follow
+&lt;ul&gt;
+&lt;li&gt;SOLID Guidelines&lt;/li&gt;
+&lt;li&gt;DRY (Don&amp;rsquo;t repeat yourself)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Design Patterns
+&lt;ul&gt;
+&lt;li&gt;Existing solutions for common design problems&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t reinvent the wheel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;testing&#34;&gt;Testing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Unit Tests
+&lt;ul&gt;
+&lt;li&gt;Test individual components&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Integration Tests
+&lt;ul&gt;
+&lt;li&gt;Test interaction of larger parts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;System Tests
+&lt;ul&gt;
+&lt;li&gt;Test the entire system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;checks&#34;&gt;Checks&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Consistency is key&lt;/li&gt;
+&lt;li&gt;Automate whenever possible&lt;/li&gt;
+&lt;li&gt;Code Format
+&lt;ul&gt;
+&lt;li&gt;Consistent code layout&lt;/li&gt;
+&lt;li&gt;Available for almost every language&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Linters
+&lt;ul&gt;
+&lt;li&gt;Avoid common errors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;c&#34;&gt;C++&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Clang-Format&lt;/li&gt;
+&lt;li&gt;CMake-Format&lt;/li&gt;
+&lt;li&gt;Clang-Tidy&lt;/li&gt;
+&lt;li&gt;CppCheck&lt;/li&gt;
+&lt;li&gt;CppLint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;python&#34;&gt;Python&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;black&lt;/li&gt;
+&lt;li&gt;yapf&lt;/li&gt;
+&lt;li&gt;pylint&lt;/li&gt;
+&lt;li&gt;flake8&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;sample&#34;&gt;Sample&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ms&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;bag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_messages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;():&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# do something&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;C0103: Variable name &lt;span class=&#34;s2&#34;&gt;&amp;#34;t&amp;#34;&lt;/span&gt; doesn&lt;span class=&#34;s1&#34;&gt;&amp;#39;t conform to snake_case
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;naming style (invalid-name)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;W0612: Unused variable &amp;#39;&lt;/span&gt;t&lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;unused-variable&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;
+&lt;p&gt;Know your tools&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IDE for the heavy development&lt;/li&gt;
+&lt;li&gt;Editor as your swiss army knife&lt;/li&gt;
+&lt;li&gt;Shortcuts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;version-control&#34;&gt;Version Control&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+ as most common tool&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;Code Review
+&lt;ul&gt;
+&lt;li&gt;Knowledge transfer in both directions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;continuous-integration&#34;&gt;Continuous Integration&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatically run in a configured environment&lt;/li&gt;
+&lt;li&gt;Requires scripted/containerized environment setup&lt;/li&gt;
+&lt;li&gt;Avoid &lt;em&gt;&amp;ldquo;Works on my machine&amp;rdquo;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;ci-failure&#34;&gt;CI Failure&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/workflow/fail_hu12988574669380335930.webp 400w,
+               /slides/workflow/fail_hu13244903888462658982.webp 760w,
+               /slides/workflow/fail_hu13630253138024004175.webp 1200w&#34;
+               src=&#34;https://hofbi.github.io/slides/workflow/fail_hu12988574669380335930.webp&#34;
+               width=&#34;453&#34;
+               height=&#34;170&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;ci-pass&#34;&gt;CI Pass&lt;/h4&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /slides/workflow/pass_hu7667345595185980807.webp 400w,
+               /slides/workflow/pass_hu6996752290015614003.webp 760w,
+               /slides/workflow/pass_hu18275524735054683822.webp 1200w&#34;
+               src=&#34;https://hofbi.github.io/slides/workflow/pass_hu7667345595185980807.webp&#34;
+               width=&#34;445&#34;
+               height=&#34;175&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Summarize the latest status&lt;/li&gt;
+&lt;li&gt;Requires active maintenance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Everything to know about pre-commit</title>
+      <link>https://hofbi.github.io/slides/pre-commit/</link>
+      <pubDate>Thu, 16 Jan 2020 15:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/slides/pre-commit/</guid>
+      <description>&lt;h1 id=&#34;everything-to-know-about-pre-commit&#34;&gt;Everything to know about &lt;code&gt;pre-commit&lt;/code&gt;&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;automate-whenever-possible&#34;&gt;Automate whenever possible&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Guidelines&lt;/li&gt;
+&lt;li&gt;Code format&lt;/li&gt;
+&lt;li&gt;Static code analysis&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;how-to-manage-all-these-tools&#34;&gt;How to manage all these tools&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Shell scripts for every tool?&lt;/li&gt;
+&lt;li&gt;Makefiles or similar frameworks?&lt;/li&gt;
+&lt;li&gt;Git hooks calling the scripts?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;drawbacks&#34;&gt;Drawbacks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Script/tool maintenance&lt;/li&gt;
+&lt;li&gt;Tooling setup/dependencies&lt;/li&gt;
+&lt;li&gt;Forgot to run the checks locally&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;pre-commit&#34;&gt;&lt;code&gt;pre-commit&lt;/code&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A framework for managing and maintaining multi-language pre-commit hooks&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatically setup all dependencies in virtual environments without root access required&lt;/li&gt;
+&lt;li&gt;Manage all tools in a single configuration file &lt;code&gt;.pre-commit-config.yaml&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;configuration&#34;&gt;Configuration&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;default_stages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;commit]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;repos&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;repo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.com/pre-commit/pre-commit-hooks&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;rev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;v4.1.0&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;hooks&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;trailing-whitespace&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;end-of-file-fixer&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;repo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.com/psf/black&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;rev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;22.1.0&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;hooks&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;black&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;language_version&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;python3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;args&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;--&lt;span class=&#34;l&#34;&gt;quiet]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Setup once: &lt;code&gt;pre-commit install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Now &lt;code&gt;pre-commit&lt;/code&gt; will run automatically on &lt;code&gt;git commit&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;optional-usage&#34;&gt;Optional Usage&lt;/h3&gt;
+&lt;p&gt;Manually run &lt;code&gt;pre-commit&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All files: &lt;code&gt;pre-commit run --all-files&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Selected files: &lt;code&gt;pre-commit run --files &amp;lt;list of files&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Selected hooks: &lt;code&gt;pre-commit run black&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;output&#34;&gt;Output&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pre-commit run --all-files
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;INFO&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Initializing environment &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; https://github.com/pre-commit/pre-commit-hooks.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;INFO&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Initializing environment &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; https://github.com/psf/black.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;INFO&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Installing environment &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; https://github.com/pre-commit/pre-commit-hooks.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;INFO&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Once installed this environment will be reused.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;INFO&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; This may take a few minutes...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;INFO&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Installing environment &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; https://github.com/psf/black.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;INFO&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Once installed this environment will be reused.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;INFO&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; This may take a few minutes...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Check Yaml...............................................................Passed
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Fix End of Files.........................................................Passed
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Trim Trailing Whitespace.................................................Failed
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- hook id: trailing-whitespace
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- &lt;span class=&#34;nb&#34;&gt;exit&lt;/span&gt; code: &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Files were modified by this hook. Additional output:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Fixing sample.py
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;black....................................................................Passed
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://miro.medium.com/max/1016/1*SE_FC8cspNAz_pFojUEsTg.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Test Driven Development</title>
+      <link>https://hofbi.github.io/event/tdd/</link>
+      <pubDate>Thu, 16 Jan 2020 15:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/event/tdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test Driven Development</title>
+      <link>https://hofbi.github.io/slides/tdd/</link>
+      <pubDate>Thu, 16 Jan 2020 15:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/slides/tdd/</guid>
+      <description>&lt;h1 id=&#34;test-driven-development&#34;&gt;Test Driven Development&lt;/h1&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;unit-tests&#34;&gt;Unit Tests&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Separate (non production) program/code to test your code&lt;/li&gt;
+&lt;li&gt;Test your code on the lowest (unit) layer&lt;/li&gt;
+&lt;li&gt;General 3 step structure of a unit test
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Given&lt;/strong&gt;: Setup unit and environment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;When&lt;/strong&gt;: Execute unit to test&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Then&lt;/strong&gt;: Test for expected result&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;why-tests&#34;&gt;Why Tests&lt;/h3&gt;
+&lt;p&gt;Michael Feathers, Working Effectively with Legacy Code&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“To me, legacy code is simply code without tests.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;tdd&#34;&gt;TDD&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Write your test before your production code&lt;/li&gt;
+&lt;li&gt;3 Phases
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Red Phase&lt;/strong&gt;: Define a failing test&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Green Phase&lt;/strong&gt;: Fix that test (Solve Simple)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Refactoring&lt;/strong&gt;: Clean up your code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;img src=&#34;https://angularjsbeginnerguide.files.wordpress.com/2017/01/tdd.jpg&#34; alt=&#34;TDD Workflow&#34; height=&#34;500&#34;/&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fizzbuzz-task&#34;&gt;FizzBuzz Task&lt;/h2&gt;
+&lt;p&gt;Write a function that returns the number it was given or &lt;em&gt;Fizz&lt;/em&gt; if it is multiple of 3, &lt;em&gt;Buzz&lt;/em&gt; if it is multiple of 5 or &lt;em&gt;FizzBuzz&lt;/em&gt; if it is multiple of both.&lt;/p&gt;
+&lt;p&gt;
+ | 
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-definition&#34;&gt;Task Definition&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Can call function &lt;code&gt;fizzBuzz&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Return 1 for 1&lt;/li&gt;
+&lt;li&gt;Return 2 for 2&lt;/li&gt;
+&lt;li&gt;Return Fizz for 3&lt;/li&gt;
+&lt;li&gt;Return Buzz for 5&lt;/li&gt;
+&lt;li&gt;Return Fizz for 6&lt;/li&gt;
+&lt;li&gt;Return Buzz for 10&lt;/li&gt;
+&lt;li&gt;Return FizzBuzz for 15&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SOLID Principles</title>
+      <link>https://hofbi.github.io/event/solid/</link>
+      <pubDate>Thu, 07 Nov 2019 15:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/event/solid/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;S - Single-responsiblity principle.&lt;/li&gt;
+&lt;li&gt;O - Open-closed principle.&lt;/li&gt;
+&lt;li&gt;L - Liskov substitution principle.&lt;/li&gt;
+&lt;li&gt;I - Interface segregation principle.&lt;/li&gt;
+&lt;li&gt;D - Dependency Inversion Principle.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MUC&#43;&#43;</title>
+      <link>https://hofbi.github.io/project/mucplusplus/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/project/mucplusplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MaKeApp</title>
+      <link>https://hofbi.github.io/project/makeapp/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/project/makeapp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

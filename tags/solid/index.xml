@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SOLID | Markus Hofbauer</title>
+    <link>https://hofbi.github.io/tags/solid/</link>
+      <atom:link href="https://hofbi.github.io/tags/solid/index.xml" rel="self" type="application/rss+xml" />
+    <description>SOLID</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 Jan 2020 15:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hofbi.github.io/media/icon_hu7729264130191091259.png</url>
+      <title>SOLID</title>
+      <link>https://hofbi.github.io/tags/solid/</link>
+    </image>
+    
+    <item>
+      <title>Test Driven Development</title>
+      <link>https://hofbi.github.io/slides/tdd/</link>
+      <pubDate>Thu, 16 Jan 2020 15:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/slides/tdd/</guid>
+      <description>&lt;h1 id=&#34;test-driven-development&#34;&gt;Test Driven Development&lt;/h1&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;unit-tests&#34;&gt;Unit Tests&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Separate (non production) program/code to test your code&lt;/li&gt;
+&lt;li&gt;Test your code on the lowest (unit) layer&lt;/li&gt;
+&lt;li&gt;General 3 step structure of a unit test
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Given&lt;/strong&gt;: Setup unit and environment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;When&lt;/strong&gt;: Execute unit to test&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Then&lt;/strong&gt;: Test for expected result&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;why-tests&#34;&gt;Why Tests&lt;/h3&gt;
+&lt;p&gt;Michael Feathers, Working Effectively with Legacy Code&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“To me, legacy code is simply code without tests.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;tdd&#34;&gt;TDD&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Write your test before your production code&lt;/li&gt;
+&lt;li&gt;3 Phases
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Red Phase&lt;/strong&gt;: Define a failing test&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Green Phase&lt;/strong&gt;: Fix that test (Solve Simple)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Refactoring&lt;/strong&gt;: Clean up your code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;img src=&#34;https://angularjsbeginnerguide.files.wordpress.com/2017/01/tdd.jpg&#34; alt=&#34;TDD Workflow&#34; height=&#34;500&#34;/&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fizzbuzz-task&#34;&gt;FizzBuzz Task&lt;/h2&gt;
+&lt;p&gt;Write a function that returns the number it was given or &lt;em&gt;Fizz&lt;/em&gt; if it is multiple of 3, &lt;em&gt;Buzz&lt;/em&gt; if it is multiple of 5 or &lt;em&gt;FizzBuzz&lt;/em&gt; if it is multiple of both.&lt;/p&gt;
+&lt;p&gt;
+ | 
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;task-definition&#34;&gt;Task Definition&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Can call function &lt;code&gt;fizzBuzz&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Return 1 for 1&lt;/li&gt;
+&lt;li&gt;Return 2 for 2&lt;/li&gt;
+&lt;li&gt;Return Fizz for 3&lt;/li&gt;
+&lt;li&gt;Return Buzz for 5&lt;/li&gt;
+&lt;li&gt;Return Fizz for 6&lt;/li&gt;
+&lt;li&gt;Return Buzz for 10&lt;/li&gt;
+&lt;li&gt;Return FizzBuzz for 15&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SOLID Principles</title>
+      <link>https://hofbi.github.io/event/solid/</link>
+      <pubDate>Thu, 07 Nov 2019 15:00:00 +0000</pubDate>
+      <guid>https://hofbi.github.io/event/solid/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;S - Single-responsiblity principle.&lt;/li&gt;
+&lt;li&gt;O - Open-closed principle.&lt;/li&gt;
+&lt;li&gt;L - Liskov substitution principle.&lt;/li&gt;
+&lt;li&gt;I - Interface segregation principle.&lt;/li&gt;
+&lt;li&gt;D - Dependency Inversion Principle.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
