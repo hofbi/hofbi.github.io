@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SOLID | Markus Hofbauer</title><link>https://hofbi.github.io/tags/solid/</link><atom:link href="https://hofbi.github.io/tags/solid/index.xml" rel="self" type="application/rss+xml"/><description>SOLID</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 Jan 2020 15:00:00 +0000</lastBuildDate><image><url>https://hofbi.github.io/media/icon_hu7729264130191091259.png</url><title>SOLID</title><link>https://hofbi.github.io/tags/solid/</link></image><item><title>Test Driven Development</title><link>https://hofbi.github.io/slides/tdd/</link><pubDate>Thu, 16 Jan 2020 15:00:00 +0000</pubDate><guid>https://hofbi.github.io/slides/tdd/</guid><description>&lt;h1 id="test-driven-development">Test Driven Development&lt;/h1>
+&lt;p>&lt;a href="https://github.com/hofbi/tdd-sample" target="_blank" rel="noopener">Code&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="unit-tests">Unit Tests&lt;/h2>
+&lt;ul>
+&lt;li>Separate (non production) program/code to test your code&lt;/li>
+&lt;li>Test your code on the lowest (unit) layer&lt;/li>
+&lt;li>General 3 step structure of a unit test
+&lt;ul>
+&lt;li>&lt;strong>Given&lt;/strong>: Setup unit and environment&lt;/li>
+&lt;li>&lt;strong>When&lt;/strong>: Execute unit to test&lt;/li>
+&lt;li>&lt;strong>Then&lt;/strong>: Test for expected result&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="why-tests">Why Tests&lt;/h3>
+&lt;p>Michael Feathers, Working Effectively with Legacy Code&lt;/p>
+&lt;blockquote>
+&lt;p>“To me, legacy code is simply code without tests.”&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="tdd">TDD&lt;/h2>
+&lt;ul>
+&lt;li>Write your test before your production code&lt;/li>
+&lt;li>3 Phases
+&lt;ul>
+&lt;li>&lt;strong>Red Phase&lt;/strong>: Define a failing test&lt;/li>
+&lt;li>&lt;strong>Green Phase&lt;/strong>: Fix that test (Solve Simple)&lt;/li>
+&lt;li>&lt;strong>Refactoring&lt;/strong>: Clean up your code&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;img src="https://angularjsbeginnerguide.files.wordpress.com/2017/01/tdd.jpg" alt="TDD Workflow" height="500"/>
+&lt;hr>
+&lt;h2 id="fizzbuzz-task">FizzBuzz Task&lt;/h2>
+&lt;p>Write a function that returns the number it was given or &lt;em>Fizz&lt;/em> if it is multiple of 3, &lt;em>Buzz&lt;/em> if it is multiple of 5 or &lt;em>FizzBuzz&lt;/em> if it is multiple of both.&lt;/p>
+&lt;p>&lt;a href="https://github.com/hofbi/tdd-sample#cpp" target="_blank" rel="noopener">C++&lt;/a> | &lt;a href="https://github.com/hofbi/tdd-sample#python" target="_blank" rel="noopener">Python&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="task-definition">Task Definition&lt;/h2>
+&lt;ol>
+&lt;li>Can call function &lt;code>fizzBuzz&lt;/code>&lt;/li>
+&lt;li>Return 1 for 1&lt;/li>
+&lt;li>Return 2 for 2&lt;/li>
+&lt;li>Return Fizz for 3&lt;/li>
+&lt;li>Return Buzz for 5&lt;/li>
+&lt;li>Return Fizz for 6&lt;/li>
+&lt;li>Return Buzz for 10&lt;/li>
+&lt;li>Return FizzBuzz for 15&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h1 id="questions">Questions?&lt;/h1>
+&lt;p>&lt;a href="https://github.com/hofbi/tdd-sample" target="_blank" rel="noopener">Try yourself&lt;/a>&lt;/p></description></item><item><title>SOLID Principles</title><link>https://hofbi.github.io/event/solid/</link><pubDate>Thu, 07 Nov 2019 15:00:00 +0000</pubDate><guid>https://hofbi.github.io/event/solid/</guid><description>&lt;ul>
+&lt;li>S - Single-responsiblity principle.&lt;/li>
+&lt;li>O - Open-closed principle.&lt;/li>
+&lt;li>L - Liskov substitution principle.&lt;/li>
+&lt;li>I - Interface segregation principle.&lt;/li>
+&lt;li>D - Dependency Inversion Principle.&lt;/li>
+&lt;/ul></description></item></channel></rss>

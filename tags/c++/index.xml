@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C++ | Markus Hofbauer</title><link>https://hofbi.github.io/tags/c++/</link><atom:link href="https://hofbi.github.io/tags/c++/index.xml" rel="self" type="application/rss+xml"/><description>C++</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><image><url>https://hofbi.github.io/media/icon_hu7729264130191091259.png</url><title>C++</title><link>https://hofbi.github.io/tags/c++/</link></image><item><title>Mean Saving-Cost Ratio: A Metric for Evaluating the Impact of Image Preprocessing on the Rate-Distortion Performance of Video Encoding</title><link>https://hofbi.github.io/publication/mscr/</link><pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/publication/mscr/</guid><description/></item><item><title>Measuring the Influence of Image Preprocessing on the Rate-Distortion Performance of Video Encoding</title><link>https://hofbi.github.io/publication/preprocessor_evaluation/</link><pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/publication/preprocessor_evaluation/</guid><description/></item><item><title>AR in VR: Omnistereoscopic Telepresence with Holograms for Remote Maintenance and Collaboration</title><link>https://hofbi.github.io/publication/ar_in_vr_extended/</link><pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/publication/ar_in_vr_extended/</guid><description/></item><item><title>Adaptive Live Video Streaming for Teleoperated Driving</title><link>https://hofbi.github.io/publication/dissertation/</link><pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/publication/dissertation/</guid><description/></item><item><title>AR in VR: Augmented Reality Cues in 360-Degree Stereoscopic Telepresence for Remote Collaboration and Maintenance</title><link>https://hofbi.github.io/publication/ar_in_vr/</link><pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/publication/ar_in_vr/</guid><description/></item><item><title>Traffic-Aware Multi-View Video Stream Adaptation for Teleoperated Driving</title><link>https://hofbi.github.io/publication/tamva/</link><pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/publication/tamva/</guid><description/></item><item><title>Teaching Software Engineering As Programming Over Time</title><link>https://hofbi.github.io/publication/software_lab/</link><pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/publication/software_lab/</guid><description/></item><item><title>Preprocessor Rate Control for Adaptive Multi-View Live Video Streaming Using a Single Encoder</title><link>https://hofbi.github.io/publication/preprocessor_rate_control/</link><pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/publication/preprocessor_rate_control/</guid><description/></item><item><title>mp-units</title><link>https://hofbi.github.io/project/units/</link><pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/project/units/</guid><description/></item><item><title>Adaptive Multi-View Live Video Streaming for Teledriving Using a Single Hardware Encoder</title><link>https://hofbi.github.io/publication/single_encoder/</link><pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/publication/single_encoder/</guid><description/></item><item><title>TELECARLA: An Open Source Extension of the CARLA Simulator for Teleoperated Driving Research Using Off-The-Shelf Components</title><link>https://hofbi.github.io/publication/telecarla/</link><pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/publication/telecarla/</guid><description/></item><item><title>Test Driven Development</title><link>https://hofbi.github.io/event/tdd/</link><pubDate>Thu, 16 Jan 2020 15:00:00 +0000</pubDate><guid>https://hofbi.github.io/event/tdd/</guid><description/></item><item><title>Test Driven Development</title><link>https://hofbi.github.io/slides/tdd/</link><pubDate>Thu, 16 Jan 2020 15:00:00 +0000</pubDate><guid>https://hofbi.github.io/slides/tdd/</guid><description>&lt;h1 id="test-driven-development">Test Driven Development&lt;/h1>
+&lt;p>&lt;a href="https://github.com/hofbi/tdd-sample" target="_blank" rel="noopener">Code&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="unit-tests">Unit Tests&lt;/h2>
+&lt;ul>
+&lt;li>Separate (non production) program/code to test your code&lt;/li>
+&lt;li>Test your code on the lowest (unit) layer&lt;/li>
+&lt;li>General 3 step structure of a unit test
+&lt;ul>
+&lt;li>&lt;strong>Given&lt;/strong>: Setup unit and environment&lt;/li>
+&lt;li>&lt;strong>When&lt;/strong>: Execute unit to test&lt;/li>
+&lt;li>&lt;strong>Then&lt;/strong>: Test for expected result&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="why-tests">Why Tests&lt;/h3>
+&lt;p>Michael Feathers, Working Effectively with Legacy Code&lt;/p>
+&lt;blockquote>
+&lt;p>“To me, legacy code is simply code without tests.”&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="tdd">TDD&lt;/h2>
+&lt;ul>
+&lt;li>Write your test before your production code&lt;/li>
+&lt;li>3 Phases
+&lt;ul>
+&lt;li>&lt;strong>Red Phase&lt;/strong>: Define a failing test&lt;/li>
+&lt;li>&lt;strong>Green Phase&lt;/strong>: Fix that test (Solve Simple)&lt;/li>
+&lt;li>&lt;strong>Refactoring&lt;/strong>: Clean up your code&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;img src="https://angularjsbeginnerguide.files.wordpress.com/2017/01/tdd.jpg" alt="TDD Workflow" height="500"/>
+&lt;hr>
+&lt;h2 id="fizzbuzz-task">FizzBuzz Task&lt;/h2>
+&lt;p>Write a function that returns the number it was given or &lt;em>Fizz&lt;/em> if it is multiple of 3, &lt;em>Buzz&lt;/em> if it is multiple of 5 or &lt;em>FizzBuzz&lt;/em> if it is multiple of both.&lt;/p>
+&lt;p>&lt;a href="https://github.com/hofbi/tdd-sample#cpp" target="_blank" rel="noopener">C++&lt;/a> | &lt;a href="https://github.com/hofbi/tdd-sample#python" target="_blank" rel="noopener">Python&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="task-definition">Task Definition&lt;/h2>
+&lt;ol>
+&lt;li>Can call function &lt;code>fizzBuzz&lt;/code>&lt;/li>
+&lt;li>Return 1 for 1&lt;/li>
+&lt;li>Return 2 for 2&lt;/li>
+&lt;li>Return Fizz for 3&lt;/li>
+&lt;li>Return Buzz for 5&lt;/li>
+&lt;li>Return Fizz for 6&lt;/li>
+&lt;li>Return Buzz for 10&lt;/li>
+&lt;li>Return FizzBuzz for 15&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h1 id="questions">Questions?&lt;/h1>
+&lt;p>&lt;a href="https://github.com/hofbi/tdd-sample" target="_blank" rel="noopener">Try yourself&lt;/a>&lt;/p></description></item><item><title>SOLID Principles</title><link>https://hofbi.github.io/event/solid/</link><pubDate>Thu, 07 Nov 2019 15:00:00 +0000</pubDate><guid>https://hofbi.github.io/event/solid/</guid><description>&lt;ul>
+&lt;li>S - Single-responsiblity principle.&lt;/li>
+&lt;li>O - Open-closed principle.&lt;/li>
+&lt;li>L - Liskov substitution principle.&lt;/li>
+&lt;li>I - Interface segregation principle.&lt;/li>
+&lt;li>D - Dependency Inversion Principle.&lt;/li>
+&lt;/ul></description></item><item><title>MUC++</title><link>https://hofbi.github.io/project/mucplusplus/</link><pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/project/mucplusplus/</guid><description/></item><item><title>CARLA</title><link>https://hofbi.github.io/project/carla/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/project/carla/</guid><description/></item><item><title>MaKeApp</title><link>https://hofbi.github.io/project/makeapp/</link><pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/project/makeapp/</guid><description/></item></channel></rss>

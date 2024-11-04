@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Media Technology | Markus Hofbauer</title><link>https://hofbi.github.io/tags/media-technology/</link><atom:link href="https://hofbi.github.io/tags/media-technology/index.xml" rel="self" type="application/rss+xml"/><description>Media Technology</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate><image><url>https://hofbi.github.io/media/icon_hu7729264130191091259.png</url><title>Media Technology</title><link>https://hofbi.github.io/tags/media-technology/</link></image><item><title>Seminar Media Technology</title><link>https://hofbi.github.io/teaching/seminar-media-technology/</link><pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/teaching/seminar-media-technology/</guid><description>&lt;p>Selected topics in media technology. The focus is on current research topics and new technologies. The participants study recent publications, prepare a summary in the form of a scientific paper and present the topic to the audience.&lt;/p>
+&lt;p>Details at the chairs &lt;a href="https://www.ce.cit.tum.de/en/lmt/teaching/seminar-media-technology/" target="_blank" rel="noopener">webpage&lt;/a>&lt;/p>
+&lt;h2 id="supervised-terms">Supervised Terms&lt;/h2>
+&lt;ul>
+&lt;li>SS21&lt;/li>
+&lt;li>WS20/21&lt;/li>
+&lt;li>SS20&lt;/li>
+&lt;li>WS19/20&lt;/li>
+&lt;li>SS19&lt;/li>
+&lt;/ul>
+&lt;h2 id="ss21-augmented-reality-and-virtual-reality">SS21: Augmented Reality and Virtual Reality&lt;/h2>
+&lt;ol>
+&lt;li>AR/VR-based Human-Robot Interfaces&lt;/li>
+&lt;li>VR and AR Interfaces for Robot Learning from Demonstration&lt;/li>
+&lt;li>Intuitive Teleoperation using Augmented Reality&lt;/li>
+&lt;li>Improving Teleoperated Driving Using an Augmented Reality Representation&lt;/li>
+&lt;li>Deep Learning for 6D pose estimation and its applications in AR&lt;/li>
+&lt;li>Deformable Object Tracking for AR&lt;/li>
+&lt;li>Marker-based Augmented Reality&lt;/li>
+&lt;li>Visual Place Recognition&lt;/li>
+&lt;li>Activity Recognition for Augmented Reality and Virtual Reality&lt;/li>
+&lt;li>Augmented and Virtual Haptics&lt;/li>
+&lt;li>Generation of Realistic Virtual Views&lt;/li>
+&lt;li>Video coding optimization of virtual reality 360-degree Video&lt;/li>
+&lt;/ol>
+&lt;h2 id="ws2021-recent-advances-in-multimedia-compression---from-3d-point-clouds-to-deep-neural-networks">WS20/21: Recent Advances in Multimedia Compression - From 3D Point Clouds to Deep Neural Networks&lt;/h2>
+&lt;ol>
+&lt;li>Compression Schemes for 360-degree Video Streaming&lt;/li>
+&lt;li>Compression Artifacts Reduction for Compressed Image/Videos&lt;/li>
+&lt;li>End-to-End Image/Video Compression With Neural Networks&lt;/li>
+&lt;li>Semantic Image/Video Compression Through Deep Learning&lt;/li>
+&lt;li>Video Compression for Low Delay Video Streaming&lt;/li>
+&lt;li>Point Cloud Compression for Autonomous Driving&lt;/li>
+&lt;li>Map Compression for Visual SLAM Systems&lt;/li>
+&lt;li>Deep Autoencoder Model for Dynamically Acquired Point Cloud Data Compression Enhancement Using IMU Sensors&lt;/li>
+&lt;li>Compression of Pose Graphs for SLAM systems&lt;/li>
+&lt;li>Vibrotactile Perception and Compression&lt;/li>
+&lt;li>Neural Network Model Compression&lt;/li>
+&lt;li>Knowledge Distillation for Enhanced Neural Networks&lt;/li>
+&lt;/ol>
+&lt;h2 id="ss20-recent-advances-in-multimedia-compression---from-3d-point-clouds-to-deep-neural-networks">SS20: Recent Advances in Multimedia Compression - From 3D Point Clouds to Deep Neural Networks&lt;/h2>
+&lt;ol>
+&lt;li>Compression Schemes for 360-degree Video Streaming&lt;/li>
+&lt;li>Compression Artifacts Reduction for Compressed Image/Videos&lt;/li>
+&lt;li>End-to-End Image/Video Compression With Neural Networks&lt;/li>
+&lt;li>Semantic Image/Video Compression Through Deep Learning&lt;/li>
+&lt;li>Video Compression for Low Delay Video Streaming&lt;/li>
+&lt;li>Point Cloud Compression for Autonomous Driving&lt;/li>
+&lt;li>Map Compression for Visual SLAM Systems&lt;/li>
+&lt;li>Deep Autoencoder Model for Dynamically Acquired Point Cloud Data Compression Enhancement Using IMU Sensors&lt;/li>
+&lt;li>Log Compression for Robotics&lt;/li>
+&lt;li>Vibrotactile Perception and Compression&lt;/li>
+&lt;li>Neural Network Model Compression&lt;/li>
+&lt;li>Knowledge Distillation for Enhanced Neural Networks&lt;/li>
+&lt;/ol>
+&lt;h2 id="ws1920-autonomous-driving-methods">WS19/20: Autonomous Driving Methods&lt;/h2>
+&lt;ol>
+&lt;li>Teleoperation for Autonomous Driving Failures&lt;/li>
+&lt;li>Safety Concepts for Teleoperated Driving&lt;/li>
+&lt;li>Early Failure Prediction in Autonomous Driving&lt;/li>
+&lt;li>Out-Of-Distribution Detection for Autonomous Driving&lt;/li>
+&lt;li>Visual SLAM Methods&lt;/li>
+&lt;li>Path Planning&lt;/li>
+&lt;li>Driver intention/motion prediction&lt;/li>
+&lt;li>Personalized Autonomous Driving: Learning from Driver Demonstrations&lt;/li>
+&lt;li>Multi-modal Object Detection&lt;/li>
+&lt;li>Predictive Methods for Network Delay Compensation by Teledriving&lt;/li>
+&lt;li>Vision Enhancement for Autonomous Driving under Adverse Weather Conditions&lt;/li>
+&lt;li>Self-supervised Learning of Depth Estimation and Ego-Motion from Monocular Videos using Convolutional Neural Networks&lt;/li>
+&lt;/ol>
+&lt;h2 id="ss19-machine-learning">SS19: Machine Learning&lt;/h2>
+&lt;ol>
+&lt;li>Human Visual Perception as a Model for Neural Networks&lt;/li>
+&lt;li>Dimension Reduction - Extracting Information from High-Dimensional Data&lt;/li>
+&lt;li>Embedded Deep Learning for Sensor Fusion Applications&lt;/li>
+&lt;li>Throughput Prediction in Cellular Networks&lt;/li>
+&lt;li>Region of Interest Prediction for Teleoperated Driving Applications&lt;/li>
+&lt;li>Quality of Experience Prediction in Mobile Video&lt;/li>
+&lt;li>Image Quality Assessment&lt;/li>
+&lt;li>Image Restoration - from Conventional Methods to Neural Networks Approaches&lt;/li>
+&lt;li>Content-Based Image Retrieval&lt;/li>
+&lt;li>Machine Learning for Path Planning&lt;/li>
+&lt;li>Neural SLAM&lt;/li>
+&lt;li>Tactile Object Description and Exploration&lt;/li>
+&lt;/ol></description></item><item><title>Seminar on Topics in Signal Processing</title><link>https://hofbi.github.io/teaching/ssp/</link><pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/teaching/ssp/</guid><description>&lt;p>The major goals of the seminar are to learn how to do scientific research and to learn and practice presentation techniques. Each student has to prepare a scientific talk about the topic he or she has registered for. The students have to collect the required literature, understand its contents, and prepare a presentation about it that summarizes the topic.&lt;/p>
+&lt;p>Details at the chairs &lt;a href="https://www.ce.cit.tum.de/en/lmt/teaching/seminar-on-topics-in-signal-processing/" target="_blank" rel="noopener">webpage&lt;/a>&lt;/p>
+&lt;h2 id="supervised-terms">Supervised Terms&lt;/h2>
+&lt;ul>
+&lt;li>WS20/21&lt;/li>
+&lt;li>WS19/20&lt;/li>
+&lt;/ul>
+&lt;h2 id="ws2021-recent-advances-in-multimedia-compression---from-3d-point-clouds-to-deep-neural-networks">WS20/21: Recent Advances in Multimedia Compression - From 3D Point Clouds to Deep Neural Networks&lt;/h2>
+&lt;ol>
+&lt;li>Compression Schemes for 360-degree Video Streaming&lt;/li>
+&lt;li>Compression Artifacts Reduction for Compressed Image/Videos&lt;/li>
+&lt;li>End-to-End Image/Video Compression With Neural Networks&lt;/li>
+&lt;li>Semantic Image/Video Compression Through Deep Learning&lt;/li>
+&lt;li>Video Compression for Low Delay Video Streaming&lt;/li>
+&lt;li>Point Cloud Compression for Autonomous Driving&lt;/li>
+&lt;li>Map Compression for Visual SLAM Systems&lt;/li>
+&lt;li>Deep Autoencoder Model for Dynamically Acquired Point Cloud Data Compression Enhancement Using IMU Sensors&lt;/li>
+&lt;li>Compression Schemes for Cloud Robotics&lt;/li>
+&lt;li>Vibrotactile Perception and Compression&lt;/li>
+&lt;li>Neural Network Model Compression&lt;/li>
+&lt;li>Knowledge Distillation for Enhanced Neural Networks&lt;/li>
+&lt;/ol>
+&lt;h2 id="subjects-ws1920-autonomous-driving-methods">Subjects WS19/20: Autonomous Driving Methods&lt;/h2>
+&lt;p>The planned topics for this semester:&lt;/p>
+&lt;ol>
+&lt;li>Teleoperation for Autonomous Driving Failures&lt;/li>
+&lt;li>Early Failure Prediction in Autonomous Driving&lt;/li>
+&lt;li>Visual SLAM Methods&lt;/li>
+&lt;li>Path Planning&lt;/li>
+&lt;li>Attentive Sensory Data Rate Adaptation&lt;/li>
+&lt;li>Multi-modal Object Detection&lt;/li>
+&lt;li>Predictive Methods for Network Delay Compensation by Teledriving&lt;/li>
+&lt;li>Vision Enhancement for Autonomous Driving under Adverse Weather Conditions&lt;/li>
+&lt;/ol></description></item><item><title>Industry 4.0 Laboratory</title><link>https://hofbi.github.io/teaching/i40-lab/</link><pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate><guid>https://hofbi.github.io/teaching/i40-lab/</guid><description>&lt;p>The practical module teaches fundamental methods of communication related to Industry 4.0 applications across 6 topical elements, each taught by a different member of the CoC Communication.&lt;/p>
+&lt;p>Details at the chairs &lt;a href="https://www.ce.cit.tum.de/en/lmt/teaching/industry-40-laboratory/" target="_blank" rel="noopener">webpage&lt;/a>&lt;/p>
+&lt;h2 id="supervised-years">Supervised Years&lt;/h2>
+&lt;ul>
+&lt;li>2019&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Slides | Markus Hofbauer</title><link>https://hofbi.github.io/slides/</link><atom:link href="https://hofbi.github.io/slides/index.xml" rel="self" type="application/rss+xml"/><description>Slides</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2020 15:00:00 +0000</lastBuildDate><image><url>https://hofbi.github.io/media/icon_hu7729264130191091259.png</url><title>Slides</title><link>https://hofbi.github.io/slides/</link></image><item><title>Scale your Workflow</title><link>https://hofbi.github.io/slides/workflow/</link><pubDate>Fri, 01 May 2020 15:00:00 +0000</pubDate><guid>https://hofbi.github.io/slides/workflow/</guid><description>&lt;h1 id="scale-your-workflow">Scale your Workflow&lt;/h1>
+&lt;hr>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;ul>
+&lt;li>Project Management&lt;/li>
+&lt;li>Development&lt;/li>
+&lt;li>Documentation&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="project-management">Project Management&lt;/h2>
+&lt;p>Integrated in &lt;a href="https://gitlab.com" target="_blank" rel="noopener">GitLab&lt;/a>|&lt;a href="https://github.com" target="_blank" rel="noopener">GitHub&lt;/a>|&lt;a href="https://bitbucket.org" target="_blank" rel="noopener">Bitbucket&lt;/a>|&amp;hellip;&lt;/p>
+&lt;ul>
+&lt;li>Issue Trackers&lt;/li>
+&lt;li>Milestones&lt;/li>
+&lt;li>Boards&lt;/li>
+&lt;li>&amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="issue-trackers">Issue Trackers&lt;/h3>
+&lt;ul>
+&lt;li>Collect ideas&lt;/li>
+&lt;li>Document and discuss your decisions/progress
+&lt;ul>
+&lt;li>For/with others&lt;/li>
+&lt;li>For/with your future self&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://pics.me.me/yes-i-talk-to-myself-thats-because-sometimes-i-need-14183709.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;h3 id="team-discussions">Team Discussions&lt;/h3>
+&lt;ul>
+&lt;li>Early feedback&lt;/li>
+&lt;li>Constantly explain/justify/rethink your ideas&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Fail Often, Fail Fast, Fail Early&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;h2 id="development">Development&lt;/h2>
+&lt;hr>
+&lt;h3 id="implementation">Implementation&lt;/h3>
+&lt;ul>
+&lt;li>Common rules you should always follow
+&lt;ul>
+&lt;li>SOLID Guidelines&lt;/li>
+&lt;li>DRY (Don&amp;rsquo;t repeat yourself)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Design Patterns
+&lt;ul>
+&lt;li>Existing solutions for common design problems&lt;/li>
+&lt;li>Don&amp;rsquo;t reinvent the wheel&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="testing">Testing&lt;/h3>
+&lt;ul>
+&lt;li>Unit Tests
+&lt;ul>
+&lt;li>Test individual components&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Integration Tests
+&lt;ul>
+&lt;li>Test interaction of larger parts&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>System Tests
+&lt;ul>
+&lt;li>Test the entire system&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="checks">Checks&lt;/h3>
+&lt;ul>
+&lt;li>Consistency is key&lt;/li>
+&lt;li>Automate whenever possible&lt;/li>
+&lt;li>Code Format
+&lt;ul>
+&lt;li>Consistent code layout&lt;/li>
+&lt;li>Available for almost every language&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Linters
+&lt;ul>
+&lt;li>Avoid common errors&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="c">C++&lt;/h4>
+&lt;ul>
+&lt;li>Clang-Format&lt;/li>
+&lt;li>CMake-Format&lt;/li>
+&lt;li>Clang-Tidy&lt;/li>
+&lt;li>CppCheck&lt;/li>
+&lt;li>CppLint&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="python">Python&lt;/h4>
+&lt;ul>
+&lt;li>black&lt;/li>
+&lt;li>yapf&lt;/li>
+&lt;li>pylint&lt;/li>
+&lt;li>flake8&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="sample">Sample&lt;/h4>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="k">for&lt;/span> &lt;span class="n">t&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">m&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">ms&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">bag&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">read_messages&lt;/span>&lt;span class="p">():&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># do something&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">C0103: Variable name &lt;span class="s2">&amp;#34;t&amp;#34;&lt;/span> doesn&lt;span class="s1">&amp;#39;t conform to snake_case
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s1">naming style (invalid-name)
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s1">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s1">W0612: Unused variable &amp;#39;&lt;/span>t&lt;span class="err">&amp;#39;&lt;/span> &lt;span class="o">(&lt;/span>unused-variable&lt;span class="o">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h3 id="tools">Tools&lt;/h3>
+&lt;p>Know your tools&lt;/p>
+&lt;ul>
+&lt;li>IDE for the heavy development&lt;/li>
+&lt;li>Editor as your swiss army knife&lt;/li>
+&lt;li>Shortcuts&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="version-control">Version Control&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://git-scm.com/" target="_blank" rel="noopener">Git&lt;/a> as most common tool&lt;/li>
+&lt;li>&lt;a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow" target="_blank" rel="noopener">Git Feature Branch Workflow&lt;/a>&lt;/li>
+&lt;li>Code Review
+&lt;ul>
+&lt;li>Knowledge transfer in both directions&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="continuous-integration">Continuous Integration&lt;/h3>
+&lt;ul>
+&lt;li>Automatically run in a configured environment&lt;/li>
+&lt;li>Requires scripted/containerized environment setup&lt;/li>
+&lt;li>Avoid &lt;em>&amp;ldquo;Works on my machine&amp;rdquo;&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="ci-failure">CI Failure&lt;/h4>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/slides/workflow/fail_hu12988574669380335930.webp 400w,
+/slides/workflow/fail_hu13244903888462658982.webp 760w,
+/slides/workflow/fail_hu13630253138024004175.webp 1200w"
+src="https://hofbi.github.io/slides/workflow/fail_hu12988574669380335930.webp"
+width="453"
+height="170"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;h4 id="ci-pass">CI Pass&lt;/h4>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/slides/workflow/pass_hu7667345595185980807.webp 400w,
+/slides/workflow/pass_hu6996752290015614003.webp 760w,
+/slides/workflow/pass_hu18275524735054683822.webp 1200w"
+src="https://hofbi.github.io/slides/workflow/pass_hu7667345595185980807.webp"
+width="445"
+height="175"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;hr>
+&lt;h2 id="documentation">Documentation&lt;/h2>
+&lt;ul>
+&lt;li>Summarize the latest status&lt;/li>
+&lt;li>Requires active maintenance&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h1 id="questions">Questions?&lt;/h1></description></item><item><title>Everything to know about pre-commit</title><link>https://hofbi.github.io/slides/pre-commit/</link><pubDate>Thu, 16 Jan 2020 15:00:00 +0000</pubDate><guid>https://hofbi.github.io/slides/pre-commit/</guid><description>&lt;h1 id="everything-to-know-about-pre-commit">Everything to know about &lt;code>pre-commit&lt;/code>&lt;/h1>
+&lt;hr>
+&lt;h2 id="automate-whenever-possible">Automate whenever possible&lt;/h2>
+&lt;ul>
+&lt;li>Guidelines&lt;/li>
+&lt;li>Code format&lt;/li>
+&lt;li>Static code analysis&lt;/li>
+&lt;li>&amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="how-to-manage-all-these-tools">How to manage all these tools&lt;/h2>
+&lt;ul>
+&lt;li>Shell scripts for every tool?&lt;/li>
+&lt;li>Makefiles or similar frameworks?&lt;/li>
+&lt;li>Git hooks calling the scripts?&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="drawbacks">Drawbacks&lt;/h2>
+&lt;ul>
+&lt;li>Script/tool maintenance&lt;/li>
+&lt;li>Tooling setup/dependencies&lt;/li>
+&lt;li>Forgot to run the checks locally&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="pre-commit">&lt;code>pre-commit&lt;/code>&lt;/h2>
+&lt;blockquote>
+&lt;p>A framework for managing and maintaining multi-language pre-commit hooks&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://pre-commit.com/" target="_blank" rel="noopener">pre-commit.com&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h3 id="features">Features&lt;/h3>
+&lt;ul>
+&lt;li>Automatically setup all dependencies in virtual environments without root access required&lt;/li>
+&lt;li>Manage all tools in a single configuration file &lt;code>.pre-commit-config.yaml&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="configuration">Configuration&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">default_stages&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="l">commit]&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">repos&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">repo&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.com/pre-commit/pre-commit-hooks&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">rev&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">v4.1.0&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">hooks&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">id&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">trailing-whitespace&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">id&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">end-of-file-fixer&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">repo&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.com/psf/black&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">rev&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">22.1.0&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">hooks&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">id&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">black&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">language_version&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">python3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">args&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">[&lt;/span>--&lt;span class="l">quiet]&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h3 id="usage">Usage&lt;/h3>
+&lt;ol>
+&lt;li>Setup once: &lt;code>pre-commit install&lt;/code>&lt;/li>
+&lt;li>Now &lt;code>pre-commit&lt;/code> will run automatically on &lt;code>git commit&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h3 id="optional-usage">Optional Usage&lt;/h3>
+&lt;p>Manually run &lt;code>pre-commit&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>All files: &lt;code>pre-commit run --all-files&lt;/code>&lt;/li>
+&lt;li>Selected files: &lt;code>pre-commit run --files &amp;lt;list of files&amp;gt;&lt;/code>&lt;/li>
+&lt;li>Selected hooks: &lt;code>pre-commit run black&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="output">Output&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">pre-commit run --all-files
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>INFO&lt;span class="o">]&lt;/span> Initializing environment &lt;span class="k">for&lt;/span> https://github.com/pre-commit/pre-commit-hooks.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>INFO&lt;span class="o">]&lt;/span> Initializing environment &lt;span class="k">for&lt;/span> https://github.com/psf/black.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>INFO&lt;span class="o">]&lt;/span> Installing environment &lt;span class="k">for&lt;/span> https://github.com/pre-commit/pre-commit-hooks.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>INFO&lt;span class="o">]&lt;/span> Once installed this environment will be reused.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>INFO&lt;span class="o">]&lt;/span> This may take a few minutes...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>INFO&lt;span class="o">]&lt;/span> Installing environment &lt;span class="k">for&lt;/span> https://github.com/psf/black.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>INFO&lt;span class="o">]&lt;/span> Once installed this environment will be reused.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>INFO&lt;span class="o">]&lt;/span> This may take a few minutes...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Check Yaml...............................................................Passed
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Fix End of Files.........................................................Passed
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Trim Trailing Whitespace.................................................Failed
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- hook id: trailing-whitespace
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">- &lt;span class="nb">exit&lt;/span> code: &lt;span class="m">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Files were modified by this hook. Additional output:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Fixing sample.py
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">black....................................................................Passed
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="flex justify-center ">
+&lt;div class="w-100" >&lt;img src="https://miro.medium.com/max/1016/1*SE_FC8cspNAz_pFojUEsTg.jpeg" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>Test Driven Development</title><link>https://hofbi.github.io/slides/tdd/</link><pubDate>Thu, 16 Jan 2020 15:00:00 +0000</pubDate><guid>https://hofbi.github.io/slides/tdd/</guid><description>&lt;h1 id="test-driven-development">Test Driven Development&lt;/h1>
+&lt;p>&lt;a href="https://github.com/hofbi/tdd-sample" target="_blank" rel="noopener">Code&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="unit-tests">Unit Tests&lt;/h2>
+&lt;ul>
+&lt;li>Separate (non production) program/code to test your code&lt;/li>
+&lt;li>Test your code on the lowest (unit) layer&lt;/li>
+&lt;li>General 3 step structure of a unit test
+&lt;ul>
+&lt;li>&lt;strong>Given&lt;/strong>: Setup unit and environment&lt;/li>
+&lt;li>&lt;strong>When&lt;/strong>: Execute unit to test&lt;/li>
+&lt;li>&lt;strong>Then&lt;/strong>: Test for expected result&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="why-tests">Why Tests&lt;/h3>
+&lt;p>Michael Feathers, Working Effectively with Legacy Code&lt;/p>
+&lt;blockquote>
+&lt;p>“To me, legacy code is simply code without tests.”&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="tdd">TDD&lt;/h2>
+&lt;ul>
+&lt;li>Write your test before your production code&lt;/li>
+&lt;li>3 Phases
+&lt;ul>
+&lt;li>&lt;strong>Red Phase&lt;/strong>: Define a failing test&lt;/li>
+&lt;li>&lt;strong>Green Phase&lt;/strong>: Fix that test (Solve Simple)&lt;/li>
+&lt;li>&lt;strong>Refactoring&lt;/strong>: Clean up your code&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;img src="https://angularjsbeginnerguide.files.wordpress.com/2017/01/tdd.jpg" alt="TDD Workflow" height="500"/>
+&lt;hr>
+&lt;h2 id="fizzbuzz-task">FizzBuzz Task&lt;/h2>
+&lt;p>Write a function that returns the number it was given or &lt;em>Fizz&lt;/em> if it is multiple of 3, &lt;em>Buzz&lt;/em> if it is multiple of 5 or &lt;em>FizzBuzz&lt;/em> if it is multiple of both.&lt;/p>
+&lt;p>&lt;a href="https://github.com/hofbi/tdd-sample#cpp" target="_blank" rel="noopener">C++&lt;/a> | &lt;a href="https://github.com/hofbi/tdd-sample#python" target="_blank" rel="noopener">Python&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="task-definition">Task Definition&lt;/h2>
+&lt;ol>
+&lt;li>Can call function &lt;code>fizzBuzz&lt;/code>&lt;/li>
+&lt;li>Return 1 for 1&lt;/li>
+&lt;li>Return 2 for 2&lt;/li>
+&lt;li>Return Fizz for 3&lt;/li>
+&lt;li>Return Buzz for 5&lt;/li>
+&lt;li>Return Fizz for 6&lt;/li>
+&lt;li>Return Buzz for 10&lt;/li>
+&lt;li>Return FizzBuzz for 15&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h1 id="questions">Questions?&lt;/h1>
+&lt;p>&lt;a href="https://github.com/hofbi/tdd-sample" target="_blank" rel="noopener">Try yourself&lt;/a>&lt;/p></description></item></channel></rss>
